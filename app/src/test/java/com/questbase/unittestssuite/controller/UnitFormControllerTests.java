@@ -42,7 +42,7 @@ public class UnitFormControllerTests {
         QuestDao questDao = mock(QuestDao.class);
         FilesController filesController = mock(FilesController.class);
         ResourceController resourceController = mock(ResourceController.class);
-//        stubs
+
         when(questDao.readAll()).thenReturn(getOutdatedFormsFromDb());
         when(authDao.isAuthorized()).thenReturn(true);
         doNothing().when(questDao).update(any(Form.class));
@@ -55,7 +55,8 @@ public class UnitFormControllerTests {
 
         FormController formController = new DefaultFormController(restApi, questDao, resourceController, filesController);
         formController.sync();
-//        verification
+
+
         verify(questDao).readAll();
         verify(resourceController, times(FORMS_AMOUNT)).sync(any(Form.class));
         verify(questDao, times(FORMS_AMOUNT)).update(any(Form.class));
