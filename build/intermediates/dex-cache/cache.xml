@@ -30,12 +30,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.github.lecho/hellocharts-android/v1.5.8/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="838172f1d23787cc52bb558ef989605bc2aecf62">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.lecho-hellocharts-android-v1.5.8_63682fafddc8ff6e324014dfd80a8ce36861bfa6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.github.pinball83/masked-edittext/1.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="86b0dfbd52c89f01fd58aa853cca6e81614d6374">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.pinball83-masked-edittext-1.0.3_19dba5d2a43e9eebe755777388a369a1391af87d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.1/2780d858273ce1bb90f6b12e1ef0d40f7741fca/converter-gson-2.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
         sha1="02780d858273ce1bb90f6b12e1ef0d40f7741fca">
         <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.0.1_4fae2bf099e3db4107fbad1d9c6a86947fa6f439/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_e35d4d62414f8407ad17f1b62f396385ddc92fa8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.4.0_ac092a52fcf12ac777ca781ec85c34e6e8273831/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -57,6 +93,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-2.1.0_b2189c486b8a260985204281f1773b016e2572c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.afollestad.material-dialogs/core/0.8.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="5640136cf422060a7077e2c02d9a231d7c76f959">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.afollestad.material-dialogs-core-0.8.6.1_3f715b0096960708ea5b5b982e4c9918589d1775/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -66,12 +120,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0_fc036030908358b8796a74055a952a3435a030b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/jp.wasabeef/recyclerview-animators/2.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0b148ce9bfaa624702b7bd0a099bfdf44b46c936">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/jp.wasabeef-recyclerview-animators-2.1.0_bb8ac55d4306aa5b9f76793ac853f702f01b7c9c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
         sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
         <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_600b40d5c9a635fcad92a145aa1998fbdf7499aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_a8a23ddc4ddbb2094f328196d31b8c42a1d38089/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -93,12 +174,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
-        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.4.0_f4d0b1e8a7e20bb0f221eb8a0921de8f91970ccf/classes.dex" />
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.4.0_3ada23a26f0baf4ab0cb881e8f06f2d17daf7e5f/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -111,12 +192,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.4.0_f4d0b1e8a7e20bb0f221eb8a0921de8f91970ccf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.github.Raizlabs.DBFlow/dbflow-core/3.0.1/e9014c38af79e42dae3f73ce350a7cefef0ff7ea/dbflow-core-3.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
         sha1="e9014c38af79e42dae3f73ce350a7cefef0ff7ea">
         <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/dbflow-core-3.0.1_5fad7206b1ab0275cd32cdc53338815b45862237/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.4.0_2f1e5acc9075c193ab7a6269c7bb45ce940f8dac/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -138,6 +237,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.4.0_a28d5cc7ae6fae41df2871668ebbde530f24991d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.github.Raizlabs.DBFlow/dbflow/3.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -147,12 +255,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.4.0_d5c071df55747416c9dd82c1d7e94edd389729a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.hannesdorfmann.mosby/viewstate/2.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="66898369cdbdcd732d7b0143aa12010cf4814005">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.hannesdorfmann.mosby-viewstate-2.0.1_3a4387abff5bf86326b5c4d356751c11b54e39e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
         sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
         <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.4.0_42262f65ccf4abc68f70d3b7a3f31223a85158b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.4.0_d21e629294f19a3fc51cfac77413d5d3d8bfc8b0/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -174,12 +309,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_a4c86c53cac265f45581bd312ca054ac92573f9c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
         sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
         <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_7c307bf3df15b246707231c22270836290891352/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.afollestad.material-dialogs/commons/0.8.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b70302fafbb8bc4f74df2f648bee8c64ed065849">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.afollestad.material-dialogs-commons-0.8.6.1_b2d5fc92ab95d0d5b46d744adfa7eaa4d2d552eb/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -201,6 +354,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/me.zhanghai.android.materialprogressbar/library/1.1.6/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="ab3193b438e37f7b0a634cc2dfebbf92892ea90c">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.zhanghai.android.materialprogressbar-library-1.1.6_33d72cd0bafcec129985ef7bfa15aa7e2e0b7588/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
         jumboMode="true"
         optimize="true"
@@ -216,6 +378,24 @@
         revision="21.1.2"
         sha1="e982f2136574b9a423186fbaeaaa98dc3e5a5288">
         <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/rhino-1.7R4_ab20078c89987f27c33839d1f71ecfd2a0d19ec5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.4.0_5505c0a51c16789447b6e1b24ca9ee846b07e88d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_7c7b7386a31c143f305994c739fb3fdeead58613/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -252,6 +432,15 @@
         revision="21.1.2"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
         <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_b8d41b99b8f665afa7b0ad19c5cda14feb06de37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.4.0_53f832c18a9d300f008daae81d438a08e0980c51/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -300,6 +489,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_000a3dc9375d15e4ae81a495d6be43ae275028ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.squareup.flow/flow/1.0.0-alpha/45ed03142787eba16ca19f392ef14632fcdc8984/flow-1.0.0-alpha.jar"
         jumboMode="true"
         optimize="true"
@@ -327,12 +525,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d7d3764294ed7099a9429e97e1fec2db2211ccbd">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8d95d7304f3e6aad75f8451dfabe957e6bcefc4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex-rxandroid-1.0.1_cbaf02a71f08d42b53e3c17d1479ec8259051747/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
         sha1="98476622f10715998eacf9240d6b479f12c66143">
         <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_f227e1abc64a099ea3151366b68f215cca548029/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.4.0_f3607fd49cd29b9ca25cfbfb3d43d03a482b1e1f/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -354,12 +579,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/jp.wasabeef/recyclerview-animators/2.1.0/jars/classes.jar"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.github.Raizlabs.DBFlow/dbflow/3.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="0b148ce9bfaa624702b7bd0a099bfdf44b46c936">
-        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/jp.wasabeef-recyclerview-animators-2.1.0_9b8713382bafd44a289d47163006bdd8332ff0a7/classes.dex" />
+        sha1="920abacee400bafcbb94fc518cfe528f5818f1e9">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.Raizlabs.DBFlow-dbflow-3.0.1_9297e343c7558b21748aedea99f8fa2dc399c17d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.4.0_c1011896db19be765c75020b0bea2bad0755e896/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -369,6 +603,15 @@
         revision="21.1.2"
         sha1="b494968f6050d494de55dc3ce005e59c7eb40012">
         <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.1_0ae29c6e826320d3207122d28eb1c2621f0167ec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/jp.wasabeef/recyclerview-animators/2.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0b148ce9bfaa624702b7bd0a099bfdf44b46c936">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/jp.wasabeef-recyclerview-animators-2.1.0_9b8713382bafd44a289d47163006bdd8332ff0a7/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -396,6 +639,42 @@
         revision="21.1.2"
         sha1="b70302fafbb8bc4f74df2f648bee8c64ed065849">
         <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.afollestad.material-dialogs-commons-0.8.6.1_e9dea4305f3474ce87d72bd01fb0efc55f608fd9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a30f36e214f92d82c382f580b00bf97bfba4aa74">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d3d08a5835c68ab93a4a55304978b3fdf4405e31/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.4.0_a393c686746b9359370ca14e01d664031bc2cc60/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.hannesdorfmann.mosby/mvp/2.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8d5f68a8fdd8283ea42b20259ae4adad9cbe5e94">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.hannesdorfmann.mosby-mvp-2.0.1_5fb9f17692bf3f42c17d6034152f24e8aa57175d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.febaisi/custom-textview/0.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="72ea2d8295eab78f38afdcc7bb43397e6bd7d89a">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.febaisi-custom-textview-0.0.3_a706fca26fb183d1768f51b01a50b72c14f5bedc/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -432,6 +711,15 @@
         revision="21.1.2"
         sha1="8d5f68a8fdd8283ea42b20259ae4adad9cbe5e94">
         <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.hannesdorfmann.mosby-mvp-2.0.1_986b61f72742e720abe1f8cfd0a1c5a2f951a79f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="/home/olexandr/AndroidStudioProjects/QuestBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.1.0_8a1dc3f5579c9461e8fada57963b45f034a9b290/classes.dex" />
     </item>
     <item
         is-multidex="true"

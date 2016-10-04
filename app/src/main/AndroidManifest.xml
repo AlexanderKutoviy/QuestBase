@@ -22,7 +22,7 @@
     <uses-sdk tools:overrideLibrary="com.febaisi" />
 
     <application
-        android:name=".TherespoApplication"
+        android:name=".QuestBaseApplication"
         android:allowBackup="true"
         android:icon="@drawable/launcher_icon"
         android:label="@string/app_name"
