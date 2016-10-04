@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/open_question_left"
+    android:layout_marginRight="@dimen/open_question_right"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/open_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/open_question_edittext_padding"
+        android:background="@drawable/open_question_bg"
+        android:cursorVisible="false"
+        android:gravity="start"
+        android:lines="@integer/edit_text_height"
+        android:padding="@dimen/open_question_edittext_padding"
+        android:textColor="@color/open_answer_text"
+        android:textSize="@dimen/open_answer_text_size" />
+
+    <CheckBox
+        android:id="@+id/check_publicate"
+        android:layout_width="@dimen/open_aswer_check_box_width"
+        android:layout_height="@dimen/open_answer_check_box_height"
+        android:layout_alignLeft="@+id/open_answer"
+        android:layout_below="@+id/open_answer"
+        android:layout_marginLeft="@dimen/check_box_open_question_margin_left"
+        android:background="@null"
+        android:button="@null"
+        android:checked="true"
+        android:drawableLeft="@drawable/publicate_checkbox_selector"
+        android:gravity="center"
+        android:text="@string/check_publicate_answer"
+        android:textColor="@color/open_answer_text"
+        android:textSize="@dimen/open_question_check_box_text_size" />
+</RelativeLayout>

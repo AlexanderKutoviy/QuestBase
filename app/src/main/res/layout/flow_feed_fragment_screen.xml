@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.questbase.app.flowui.views.FeedView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/feed_hamburger"
+            android:layout_width="@dimen/feed_hamburger_width"
+            android:layout_height="@dimen/feed_hamburger_width"
+            android:layout_alignParentLeft="true"
+            android:padding="@dimen/feed_hamburger_padding"
+            android:src="@drawable/hamburger" />
+
+        <Button
+            android:id="@+id/debug_start_form_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Start form" />
+
+        <Button
+            android:id="@+id/debug_screen_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Open debug screen" />
+    </LinearLayout>
+
+    <!--navigation drawer-->
+    <android.support.v7.widget.CardView
+        android:layout_width="@dimen/drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        card_view:cardCornerRadius="@dimen/drawer_card_corner_radius"
+        card_view:cardUseCompatPadding="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/drawer_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/drawer_margin_to_options">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/drawer_avatar"
+                        android:layout_width="@dimen/drawer_avatar_width"
+                        android:layout_height="@dimen/drawer_avatar_height"
+                        android:layout_marginLeft="@dimen/drawer_avatar_margin_left"
+                        android:layout_marginTop="@dimen/drawer_avatar_margin_top"
+                        android:src="@drawable/default_avatar"
+                        app:civ_border_width="0dp" />
+
+                    <TextView
+                        android:id="@+id/drawer_user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/drawer_avatar"
+                        android:layout_marginLeft="@dimen/drawer_user_name_text_margin_left"
+                        android:layout_toRightOf="@+id/drawer_avatar"
+                        android:text="User Name"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/drawer_user_name_text_size" />
+
+                    <TextView
+                        android:id="@+id/drawer_user_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/drawer_user_name"
+                        android:layout_marginLeft="@dimen/drawer_user_name_text_margin_left"
+                        android:layout_toRightOf="@+id/drawer_avatar"
+                        android:text="user.name@mail.eu"
+                        android:textSize="@dimen/drawer_user_email_text_size" />
+                </RelativeLayout>
+
+                <com.questbase.app.flowui.views.DrawerOptionElement
+                    android:id="@+id/drawer_option_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/drawer_option_height"
+                    app:option_text="@string/drawer_profile_option" />
+
+                <com.questbase.app.flowui.views.DrawerOptionElement
+                    android:id="@+id/drawer_option_feed"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/drawer_option_height"
+                    app:option_text="@string/drawer_feed_option" />
+
+                <com.questbase.app.flowui.views.DrawerOptionElement
+                    android:id="@+id/drawer_option_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/drawer_option_height"
+                    android:visibility="gone"
+                    app:option_text="@string/drawer_about_option" />
+
+                <com.questbase.app.flowui.views.DrawerOptionElement
+                    android:id="@+id/drawer_option_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/drawer_option_height"
+                    app:option_text="@string/drawer_logout_option" />
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+</com.questbase.app.flowui.views.FeedView>

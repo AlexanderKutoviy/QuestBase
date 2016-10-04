@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="@dimen/check_radio_vertical_off"
+        android:left="@dimen/check_radio_side_off"
+        android:right="@dimen/check_radio_side_off"
+        android:top="@dimen/check_radio_vertical_off">
+        <shape android:shape="rectangle">
+            <size
+                android:width="@dimen/check_radio_size_off"
+                android:height="@dimen/check_radio_side_off" />
+            <solid android:color="@color/image_choose" />
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/checkboxes_mark_pressed" />
+    </item>
+</layer-list>

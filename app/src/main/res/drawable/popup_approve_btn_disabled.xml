@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/sign_in_edit_text" />
+    <corners
+        android:bottomLeftRadius="@dimen/btns_popup_radius"
+        android:bottomRightRadius="@dimen/btns_popup_radius"
+        android:topLeftRadius="@dimen/btns_popup_radius"
+        android:topRightRadius="@dimen/btns_popup_radius" />
+    <size
+        android:width="@dimen/profile_shapers_btns_width"
+        android:height="@dimen/profile_shapers_btns_height" />
+</shape>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="@dimen/bulk_scroll_track_left"
+        android:right="@dimen/bulk_scrollbar_track_right">
+        <shape android:shape="rectangle">
+            <size
+                android:width="@dimen/scrollbar_size"
+                android:height="@dimen/scrollbar_size" />
+            <solid android:color="@color/sign_in_edit_text" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.questbase.app.usage.screen.DefaultUsageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/usage_permission_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/usage_permission_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/usage_request_permission" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/usage_apps_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <com.questbase.app.flowui.drawer.RespoDrawerView
+        android:id="@+id/left_drawer"
+        android:layout_width="@dimen/drawer_list_width"
+        android:layout_height="@dimen/drawer_list_height"
+        android:layout_gravity="start"
+        android:background="@color/white"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+</com.questbase.app.usage.screen.DefaultUsageView>

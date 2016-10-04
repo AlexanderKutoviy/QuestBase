@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="@color/grey" />
+
+    <RelativeLayout
+        android:id="@+id/payout_event_num"
+        android:layout_width="@dimen/payout_event_num_width_height"
+        android:layout_height="@dimen/payout_event_num_width_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/divider"
+        android:background="@color/grey">
+
+        <com.febaisi.CustomTextView
+            android:id="@+id/transactionId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            app:typeface="MyriadPro-Regular.ttf" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/payout_event_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payout_event_num"
+        android:layout_marginLeft="@dimen/payout_events_margin_left"
+        android:layout_marginStart="@dimen/payout_events_margin_left"
+        android:orientation="horizontal">
+
+        <com.febaisi.CustomTextView
+            android:id="@+id/details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_grey_color"
+            app:typeface="MyriadPro-Regular.ttf" />
+
+        <ImageView
+            android:id="@+id/phone_provider_logo"
+            android:layout_width="@dimen/phone_provider_logo_width_height"
+            android:layout_height="@dimen/phone_provider_logo_width_height"
+            android:layout_marginLeft="@dimen/phone_provider_logo_margin_left"
+            android:layout_marginStart="@dimen/phone_provider_logo_margin_left" />
+
+        <com.febaisi.CustomTextView
+            android:id="@+id/target"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_grey_color"
+            app:typeface="MyriadPro-Regular.ttf" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/transactions_recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/payout_event_title"
+        android:layout_marginLeft="@dimen/transactions_margin_left"
+        android:layout_marginStart="@dimen/transactions_margin_left" />
+
+    <ImageView
+        android:id="@+id/statusPic"
+        android:layout_width="@dimen/transactions_status_img_width_height"
+        android:layout_height="@dimen/transactions_status_img_width_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/payout_event_title"
+        android:layout_marginEnd="@dimen/transactions_status_img_margin_right"
+        android:layout_marginRight="@dimen/transactions_status_img_margin_right" />
+</RelativeLayout>

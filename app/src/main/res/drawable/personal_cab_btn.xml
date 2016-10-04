@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/light_orange" />
+    <corners
+        android:bottomLeftRadius="@dimen/personal_cab_btn_radius"
+        android:bottomRightRadius="@dimen/personal_cab_btn_radius"
+        android:topLeftRadius="@dimen/personal_cab_btn_radius"
+        android:topRightRadius="@dimen/personal_cab_btn_radius" />
+    <size
+        android:width="@dimen/btn_width"
+        android:height="@dimen/btn_height" />
+</shape>

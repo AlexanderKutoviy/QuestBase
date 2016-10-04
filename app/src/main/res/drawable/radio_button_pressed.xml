@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="@dimen/radio_button_side"
+        android:gravity="center"
+        android:left="@dimen/radio_button_side"
+        android:right="@dimen/radio_button_side"
+        android:top="@dimen/radio_button_side">
+        <shape android:shape="oval">
+            <size
+                android:width="@dimen/radio_button_size"
+                android:height="@dimen/radio_button_size" />
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+</layer-list>

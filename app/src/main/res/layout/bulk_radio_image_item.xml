@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bulk_image_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/bulk_radio_image_padding_right"
+    android:paddingTop="@dimen/bulk_image_top">
+
+    <ImageView
+        android:id="@+id/question_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/question_image_height" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/answer_red"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/bulk_image_check_high"
+            android:layout_weight="@integer/check_button_weight"
+            android:background="@drawable/answer_red_selector"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center" />
+
+        <CheckBox
+            android:id="@+id/answer_orrange"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/bulk_image_check_high"
+            android:layout_weight="@integer/check_button_weight"
+            android:background="@drawable/answer_orrange_selector"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center" />
+
+        <CheckBox
+            android:id="@+id/answer_green"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/bulk_image_check_high"
+            android:layout_weight="@integer/check_button_weight"
+            android:background="@drawable/answer_green_selector"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/answer_text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bulk_image_text_height"
+        android:gravity="center_vertical"
+        android:text="@string/bulk_image_test_text"
+        android:textColor="@color/text_answer"
+        android:textSize="@dimen/bulk_image_text_size"
+        app:typeface="MyriadPro-Regular.ttf" />
+</LinearLayout>

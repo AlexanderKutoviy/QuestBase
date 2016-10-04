@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="@dimen/charity_margin_bottom_left_press"
+        android:gravity="right|top"
+        android:left="@dimen/charity_margin_bottom_left_press"
+        android:right="@dimen/charity_margin_top_rigth_press"
+        android:top="@dimen/charity_margin_top_rigth_press">
+        <shape android:shape="oval">
+            <size
+                android:width="@dimen/charity_bg_circle_size"
+                android:height="@dimen/charity_bg_circle_size" />
+            <solid android:color="@color/red" />
+        </shape>
+    </item>
+    <item android:left="@dimen/charity_bg_margin_stroke">
+        <shape>
+            <stroke
+                android:width="@dimen/charity_stroke_width_press"
+                android:color="@color/red" />
+        </shape>
+    </item>
+    <item
+        android:bottom="@dimen/charity_stroke_margin_small_rect"
+        android:gravity="right|top"
+        android:left="@dimen/charity_stroke_margin_small_rect">
+        <shape>
+            <stroke
+                android:width="@dimen/charity_stroke_width_press"
+                android:color="@color/red" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/profile_action_bar"
+        layout="@layout/plain_action_bar" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/top_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_action_bar"
+        android:layout_marginLeft="@dimen/profile_card_margin_side"
+        android:layout_marginRight="@dimen/profile_card_margin_side"
+        android:layout_marginTop="@dimen/profile_card_margin_top"
+        card_view:cardCornerRadius="@dimen/common_card_corner_radius"
+        card_view:cardElevation="@dimen/common_card_elevation"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_avatar_container"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/profile_user_name_margin_bottom"
+                android:text="User Name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/profile_name_text_size" />
+
+            <RelativeLayout
+                android:id="@+id/social_buttons_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_name"
+                android:layout_marginBottom="@dimen/profile_social_buttons_margin_bottom"
+                android:layout_marginTop="@dimen/profile_social_buttons_margin_top"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/profile_vk_button"
+                    android:layout_width="@dimen/profile_social_button_width"
+                    android:layout_height="@dimen/profile_social_button_height"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/profile_social_button_margin"
+                    android:layout_marginRight="@dimen/profile_social_button_margin"
+                    android:background="@drawable/social_btn_off"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/profile_social_button_text_size" />
+
+                <Button
+                    android:id="@+id/profile_fb_button"
+                    android:layout_width="@dimen/profile_social_button_width"
+                    android:layout_height="@dimen/profile_social_button_height"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/profile_vk_button"
+                    android:background="@drawable/social_btn_off"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/profile_social_button_text_size" />
+
+                <Button
+                    android:id="@+id/profile_gp_button"
+                    android:layout_width="@dimen/profile_social_button_width"
+                    android:layout_height="@dimen/profile_social_button_height"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/profile_vk_button"
+                    android:background="@drawable/social_btn_off"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/profile_social_button_text_size" />
+            </RelativeLayout>
+
+            <com.questbase.app.utils.BottomCropImageView
+                android:id="@+id/profile_cover"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/profile_cover_height"
+                android:layout_alignParentTop="true" />
+
+            <FrameLayout
+                android:id="@+id/profile_avatar_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/profile_avatar_margin_top"
+                android:background="@drawable/shadowed_circle"
+                android:padding="@dimen/profile_avatar_container_padding">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_avatar"
+                    android:layout_width="@dimen/profile_avatar_width"
+                    android:layout_height="@dimen/profile_avatar_height"
+                    android:layout_gravity="center"
+                    android:src="@drawable/default_avatar" />
+            </FrameLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_card_view"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/profile_card_margin_side"
+            android:layout_marginRight="@dimen/profile_card_margin_side"
+            android:layout_marginTop="@dimen/profile_card_margin_top"
+            android:layout_weight="15"
+            card_view:cardCornerRadius="@dimen/common_card_corner_radius"
+            card_view:cardElevation="@dimen/common_card_elevation"
+            card_view:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/profile_card_internal_margin"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/balance_image"
+                        android:layout_width="60dp"
+                        android:layout_height="42dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/balance" />
+
+                    <TextView
+                        android:id="@+id/balance_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/balance_image"
+                        android:text="@string/your_balance"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/balance_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/balance_label"
+                        android:layout_toRightOf="@+id/balance_image"
+                        android:text="@string/zero_value" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/balance"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/profile_details_button_height"
+                        android:layout_margin="@dimen/profile_details_button_margin"
+                        android:layout_weight="20"
+                        android:background="@drawable/balance_withdraw_inactive"
+                        android:gravity="left|center_vertical"
+                        android:padding="@dimen/profile_details_button_padding"
+                        android:text="@string/withdraw" />
+
+                    <TextView
+                        android:id="@+id/transaction_history"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/profile_details_button_height"
+                        android:layout_margin="@dimen/profile_details_button_margin"
+                        android:layout_weight="30"
+                        android:background="@drawable/history_icon"
+                        android:gravity="center"
+                        android:padding="@dimen/profile_details_button_padding"
+                        android:text="@string/history" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="@dimen/profile_divider_vertical_margin"
+                    android:layout_marginTop="@dimen/profile_divider_vertical_margin"
+                    android:background="@drawable/profile_divider" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/reserved_balance_image"
+                        android:layout_width="60dp"
+                        android:layout_height="42dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/balance_reserved" />
+
+                    <TextView
+                        android:id="@+id/reserved_balance_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/reserved_balance_image"
+                        android:text="@string/reserved_balance"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/reserved_balance_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/reserved_balance_label"
+                        android:layout_toRightOf="@+id/reserved_balance_image"
+                        android:text="@string/zero_value" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/profile_card_margin_side"
+            android:layout_marginTop="@dimen/profile_card_margin_top"
+            android:layout_weight="10"
+            card_view:cardCornerRadius="@dimen/common_card_corner_radius"
+            card_view:cardElevation="@dimen/common_card_elevation"
+            card_view:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/profile_card_internal_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pending_forms"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zero_forms"
+                    android:textColor="@color/grey_dark" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</RelativeLayout>

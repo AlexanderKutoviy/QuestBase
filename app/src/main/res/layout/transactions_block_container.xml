@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/transactions_block"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/transactions_block_height"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/statistics_layout"
+    android:layout_marginLeft="@dimen/transactions_block_side_margins"
+    android:layout_marginRight="@dimen/transactions_block_side_margins"
+    android:layout_marginTop="@dimen/transactions_block_top_margin"
+    android:background="@color/white">
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/transactions_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/passed_forms_title_margin_left"
+        android:layout_marginStart="@dimen/passed_forms_title_margin_left"
+        android:layout_marginTop="@dimen/passed_forms_title_margin_top"
+        android:text="@string/transactions_title"
+        android:textColor="@color/sign_in_input_text"
+        android:textSize="@dimen/passed_forms_title_text_size"
+        android:textStyle="bold"
+        app:typeface="MyriadPro-Regular.ttf" />
+
+    <RelativeLayout
+        android:id="@+id/titles_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/transactions_title"
+        android:layout_alignStart="@+id/transactions_title"
+        android:layout_below="@+id/transactions_title"
+        android:layout_marginTop="@dimen/transactions_block_inner_margin_top">
+
+        <com.febaisi.CustomTextView
+            android:id="@+id/user_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_top_margin"
+            android:text="@string/user_balance"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            app:typeface="MyriadPro-Light semiextended.ttf" />
+
+        <com.febaisi.CustomTextView
+            android:id="@+id/forms_in_process"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/forms_in_process_amount"
+            android:text="@string/forms_in_process"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            app:typeface="MyriadPro-Light semiextended.ttf" />
+
+        <com.febaisi.CustomTextView
+            android:id="@+id/last_transaction_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/forms_in_process"
+            android:layout_alignStart="@+id/forms_in_process"
+            android:layout_below="@+id/forms_in_process"
+            android:layout_marginTop="@dimen/transactions_block_margin_top"
+            android:text="@string/last_transaction_time"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            app:typeface="MyriadPro-Light semiextended.ttf" />
+
+        <com.febaisi.CustomTextView
+            android:id="@+id/user_balance_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/user_balance"
+            android:layout_marginLeft="@dimen/user_balance_amount_margin_left"
+            android:layout_marginStart="@dimen/user_balance_amount_margin_left"
+            android:layout_toEndOf="@+id/forms_in_process"
+            android:layout_toRightOf="@+id/forms_in_process"
+            android:text="@string/date_sample"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            app:typeface="MyriadPro-Light semiextended.ttf" />
+
+        <com.febaisi.CustomTextView
+            android:id="@+id/forms_in_process_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/user_balance_amount"
+            android:layout_alignStart="@+id/user_balance_amount"
+            android:layout_below="@id/user_balance_amount"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/transactions_block_inner_margin_top"
+            android:text="@string/date_sample"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            app:typeface="MyriadPro-Light semiextended.ttf" />
+
+        <com.febaisi.CustomTextView
+            android:id="@+id/last_transaction_time_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/forms_in_process_amount"
+            android:layout_alignStart="@+id/forms_in_process_amount"
+            android:layout_below="@id/forms_in_process_amount"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/transactions_block_inner_margin_top"
+            android:text="@string/date_sample"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            app:typeface="MyriadPro-Light semiextended.ttf" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/get_money_button"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignEnd="@+id/titles_layout"
+        android:layout_alignRight="@+id/titles_layout"
+        android:layout_below="@+id/titles_layout"
+        android:layout_marginEnd="@dimen/get_money_btn_margin_right"
+        android:layout_marginRight="@dimen/get_money_btn_margin_right"
+        android:layout_marginTop="@dimen/expertise_button_margin"
+        android:background="@drawable/personal_cab_btn_colors"
+        android:text="@string/perform_transaction"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size" />
+
+    <RelativeLayout
+        android:id="@+id/transactions_amounts_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/transactions_title"
+        android:layout_alignStart="@+id/transactions_title"
+        android:layout_below="@+id/get_money_button"
+        android:layout_marginTop="@dimen/transactions_block_inner_margin_top">
+
+        <com.febaisi.CustomTextView
+            android:id="@+id/transactions_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_top_margin"
+            android:text="@string/transactions_amount"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            app:typeface="MyriadPro-Light semiextended.ttf" />
+
+        <com.febaisi.CustomTextView
+            android:id="@+id/charity_transactions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/transactions_amount"
+            android:layout_alignStart="@+id/transactions_amount"
+            android:layout_below="@+id/transactions_amount"
+            android:layout_marginTop="@dimen/transactions_block_margin_top"
+            android:text="@string/charity_transactions"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            app:typeface="MyriadPro-Light semiextended.ttf" />
+
+
+        <com.febaisi.CustomTextView
+            android:id="@+id/transactions_amount_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/transactions_amount"
+            android:layout_marginLeft="@dimen/transactions_amount_amount_margin_left"
+            android:layout_marginStart="@dimen/transactions_amount_amount_margin_left"
+            android:layout_toEndOf="@+id/transactions_amount"
+            android:layout_toRightOf="@+id/transactions_amount"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            app:typeface="MyriadPro-Light semiextended.ttf" />
+
+        <com.febaisi.CustomTextView
+            android:id="@+id/charity_transactions_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/transactions_amount_amount"
+            android:layout_alignStart="@+id/transactions_amount_amount"
+            android:layout_below="@id/transactions_amount_amount"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/transactions_block_inner_margin_top"
+            android:text="@string/date_sample"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            app:typeface="MyriadPro-Light semiextended.ttf" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/show_all_transactions_button"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignEnd="@+id/titles_layout"
+        android:layout_alignRight="@+id/titles_layout"
+        android:layout_below="@+id/transactions_amounts_layout"
+        android:layout_marginEnd="@dimen/get_money_btn_margin_right"
+        android:layout_marginRight="@dimen/get_money_btn_margin_right"
+        android:layout_marginTop="@dimen/expertise_button_margin"
+        android:background="@drawable/personal_cab_btn_colors"
+        android:text="@string/transactions_history"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size" />
+</RelativeLayout>

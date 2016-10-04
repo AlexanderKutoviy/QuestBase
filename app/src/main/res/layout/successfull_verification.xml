@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/phone_verification_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Номер успішно додано"
+        android:textSize="25dp"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"></TextView>
+
+    <Button
+        android:id="@+id/verificate_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/grey_light_light"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="OK" />
+</LinearLayout>

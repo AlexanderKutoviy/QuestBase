@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/transaction_block_width"
+    android:layout_height="wrap_content">
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/transaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/subtransaction_margin_top"
+        android:textColor="@color/transaction_title"
+        android:textSize="@dimen/transactions_font_size"
+        app:typeface="Myriad Pro Light.ttf" />
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/subtransaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/transaction"
+        android:layout_marginBottom="@dimen/subtransaction_margin_top"
+        android:textColor="@color/subtransaction_title"
+        android:textSize="@dimen/transactions_font_size"
+        app:typeface="Myriad Pro Light.ttf" />
+</RelativeLayout>

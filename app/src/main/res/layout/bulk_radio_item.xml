@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_marginTop="@dimen/bulk_radio_item_top"
+    android:background="@color/bg_answer_bulk_radio"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/bulk_radio_item_padding_side"
+    android:paddingLeft="@dimen/bulk_radio_item_padding_side"
+    android:paddingRight="@dimen/bulk_radio_item_padding_side">
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/bulk_radio_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/bulk_image_test_text"
+        android:textColor="@color/text_answer"
+        android:textSize="@dimen/bulk_radio_answer_text_size"
+        android:layout_marginTop="@dimen/bulk_item_text_top"
+        app:typeface="MyriadPro-Regular.ttf" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/bulk_radio_answers_top"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/one"
+            android:layout_width="@dimen/bulk_radio_size"
+            android:layout_height="@dimen/bulk_radio_size"
+            android:layout_marginLeft="@dimen/bulk_image_side"
+            android:layout_marginRight="@dimen/bulk_image_side"
+            android:background="@drawable/bulk_radio_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/one"
+            android:textColor="@color/text_answer"
+            android:textSize="@dimen/bulk_radio_choice_text_size" />
+
+        <CheckBox
+            android:id="@+id/two"
+            android:layout_width="@dimen/bulk_radio_size"
+            android:layout_height="@dimen/bulk_radio_size"
+            android:layout_marginLeft="@dimen/bulk_image_side"
+            android:layout_marginRight="@dimen/bulk_image_side"
+            android:background="@drawable/bulk_radio_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/two"
+            android:textColor="@color/text_answer"
+            android:textSize="@dimen/bulk_radio_choice_text_size" />
+
+        <CheckBox
+            android:id="@+id/three"
+            android:layout_width="@dimen/bulk_radio_size"
+            android:layout_height="@dimen/bulk_radio_size"
+            android:layout_marginLeft="@dimen/bulk_image_side"
+            android:layout_marginRight="@dimen/bulk_image_side"
+            android:background="@drawable/bulk_radio_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/three"
+            android:textColor="@color/text_answer"
+            android:textSize="@dimen/bulk_radio_choice_text_size" />
+
+        <CheckBox
+            android:id="@+id/four"
+            android:layout_width="@dimen/bulk_radio_size"
+            android:layout_height="@dimen/bulk_radio_size"
+            android:layout_marginLeft="@dimen/bulk_image_side"
+            android:layout_marginRight="@dimen/bulk_image_side"
+            android:background="@drawable/bulk_radio_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/four"
+            android:textColor="@color/text_answer"
+            android:textSize="@dimen/bulk_radio_choice_text_size" />
+
+        <CheckBox
+            android:id="@+id/five"
+            android:layout_width="@dimen/bulk_radio_size"
+            android:layout_height="@dimen/bulk_radio_size"
+            android:layout_marginLeft="@dimen/bulk_image_side"
+            android:layout_marginRight="@dimen/bulk_image_side"
+            android:background="@drawable/bulk_radio_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/five"
+            android:textColor="@color/text_answer"
+            android:textSize="@dimen/bulk_radio_choice_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

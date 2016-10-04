@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="@dimen/chart_circle_side"
+        android:gravity="center"
+        android:left="@dimen/chart_circle_side"
+        android:right="@dimen/chart_circle_side"
+        android:top="@dimen/chart_circle_side">
+        <shape android:shape="oval">
+            <size
+                android:width="@dimen/radio_image_radio_circle_size"
+                android:height="@dimen/radio_image_radio_circle_size" />
+            <solid android:color="@color/small_chart_grey_color" />
+        </shape>
+    </item>
+</layer-list>

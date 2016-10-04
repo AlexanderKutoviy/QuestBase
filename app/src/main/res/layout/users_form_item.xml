@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/users_form_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="@dimen/profile_forms_layout_inner_margin"
+    android:layout_marginEnd="@dimen/profile_forms_layout_inner_margin">
+
+    <ImageView
+        android:id="@+id/form_avatar"
+        android:layout_width="@dimen/user_form_item_width"
+        android:layout_height="@dimen/user_form_item_width" />
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/form_description"
+        android:layout_width="@dimen/user_form_item_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        app:typeface="MyriadPro-Light semiextended.ttf"
+        android:layout_below="@+id/form_avatar"
+        android:layout_marginTop="@dimen/transactions_block_side_margins"
+        android:layout_marginBottom="@dimen/recycler_margin_bottom"
+        android:background="@color/white"
+        android:textSize="@dimen/user_form_description_text_size" />
+
+</RelativeLayout>

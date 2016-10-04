@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.questbase.app.profile.DefaultPersonalCabView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_for_feed"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    android:id="@+id/header_layout"
+                    layout="@layout/header_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <include
+                    android:id="@+id/statistics_layout"
+                    layout="@layout/statistics_block"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/statistics_block_height"
+                    android:layout_below="@+id/header_layout"
+                    android:layout_marginLeft="@dimen/statistics_block_margin"
+                    android:layout_marginRight="@dimen/statistics_block_margin"
+                    android:layout_marginTop="@dimen/statistics_layout_margin_top" />
+
+                <include
+                    android:id="@+id/transactions_block"
+                    layout="@layout/transactions_block_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/transactions_block_height"
+                    android:layout_below="@+id/statistics_layout"
+                    android:layout_marginLeft="@dimen/transactions_block_side_margins"
+                    android:layout_marginRight="@dimen/transactions_block_side_margins"
+                    android:layout_marginTop="@dimen/transactions_block_top_margin" />
+
+                <include
+                    android:id="@+id/forms_block"
+                    layout="@layout/forms_block_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/transactions_block"
+                    android:layout_marginLeft="@dimen/statistics_block_margin"
+                    android:layout_marginRight="@dimen/statistics_block_margin"
+                    android:layout_marginTop="@dimen/transactions_block_top_margin" />
+
+                <!--<include-->
+                    <!--android:id="@+id/configs_block"-->
+                    <!--layout="@layout/configs_block_container"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="@dimen/configs_block_height"-->
+                    <!--android:layout_below="@+id/forms_block"-->
+                    <!--android:layout_marginBottom="@dimen/transactions_block_top_margin"-->
+                    <!--android:layout_marginLeft="@dimen/transactions_block_side_margins"-->
+                    <!--android:layout_marginRight="@dimen/transactions_block_side_margins"-->
+                    <!--android:layout_marginTop="@dimen/transactions_block_top_margin" />-->
+
+            </RelativeLayout>
+        </ScrollView>
+    </FrameLayout>
+
+    <com.questbase.app.flowui.drawer.RespoDrawerView
+        android:id="@+id/left_drawer"
+        android:layout_width="@dimen/drawer_list_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@color/white"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+</com.questbase.app.profile.DefaultPersonalCabView>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/check_or_radio_left"
+    android:layout_marginRight="@dimen/check_or_radio_right"
+    android:layout_marginTop="@dimen/check_or_radio_top"
+    android:orientation="vertical">
+
+    <ToggleButton
+        android:id="@+id/custom_check_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/answer_bg_selector"
+        android:button="@null"
+        android:checked="false"
+        android:drawableLeft="@drawable/check_box_selector"
+        android:paddingLeft="@dimen/check_answer_left"
+        android:textOff=""
+        android:textOn="" />
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/answer_text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/radio_check_text_height"
+        android:gravity="center|left"
+        android:paddingLeft="@dimen/check_left"
+        android:paddingRight="@dimen/check_right"
+        android:textColor="@color/text_answer"
+        android:textSize="@dimen/radio_check_text_size"
+        android:textStyle="bold"
+        app:typeface="MyriadPro-Regular.ttf" />
+</RelativeLayout>

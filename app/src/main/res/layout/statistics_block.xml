@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/statistics_block"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/statistics_block_height"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/header_layout"
+    android:layout_marginLeft="@dimen/statistics_block_margin"
+    android:layout_marginRight="@dimen/statistics_block_margin"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/personal_cab_charts_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/personal_cab_charts_container_height">
+
+        <com.febaisi.CustomTextView
+            android:id="@+id/passed_forms_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/passed_forms_title_margin_left"
+            android:layout_marginStart="@dimen/passed_forms_title_margin_left"
+            android:layout_marginTop="@dimen/passed_forms_title_margin_top"
+            android:text="@string/passed_forms"
+            android:textColor="@color/sign_in_input_text"
+            android:textSize="@dimen/passed_forms_title_text_size"
+            app:typeface="MyriadPro-Regular.ttf" />
+
+        <com.febaisi.CustomTextView
+            android:id="@+id/research_forms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/passed_forms_title"
+            android:layout_alignStart="@+id/passed_forms_title"
+            android:layout_below="@+id/passed_forms_title"
+            android:layout_marginTop="@dimen/research_forms_margin_top"
+            android:text="@string/research_forms"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            app:typeface="MyriadPro-Light semiextended.ttf" />
+
+        <com.febaisi.CustomTextView
+            android:id="@+id/fun_forms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/research_forms"
+            android:layout_marginEnd="@dimen/fun_forms_data_margin_end"
+            android:layout_marginRight="@dimen/fun_forms_data_margin_end"
+            android:text="@string/fun_forms"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            app:typeface="MyriadPro-Light semiextended.ttf" />
+
+        <lecho.lib.hellocharts.view.ColumnChartView
+            android:id="@+id/research_chart"
+            android:layout_width="@dimen/chart_width_height"
+            android:layout_height="@dimen/chart_height"
+            android:layout_alignEnd="@+id/research_forms"
+            android:layout_alignLeft="@+id/research_forms"
+            android:layout_alignRight="@+id/research_forms"
+            android:layout_alignStart="@+id/research_forms"
+            android:layout_below="@+id/research_forms"
+            android:layout_marginTop="@dimen/chart_margin" />
+
+        <RelativeLayout
+            android:id="@+id/legend_container"
+            android:layout_width="@dimen/legend_container_width"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/research_chart"
+            android:layout_alignStart="@+id/research_chart"
+            android:layout_below="@+id/research_chart">
+
+            <RelativeLayout
+                android:id="@+id/red_legend"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/legend_height">
+
+                <ImageView
+                    android:id="@+id/grey_column_legend_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/chart_legend_grey" />
+
+                <com.febaisi.CustomTextView
+                    android:id="@+id/red_column_legend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/grey_column_legend_image"
+                    android:layout_toRightOf="@+id/grey_column_legend_image"
+                    android:text="@string/avg_form_legend_text"
+                    android:textSize="@dimen/red_column_legend_text_size"
+                    app:typeface="MyriadPro-Light semiextended.ttf" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/legend_height"
+                android:layout_below="@+id/red_legend">
+
+                <ImageView
+                    android:id="@+id/red_column_legend_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/chart_legend_red" />
+
+                <com.febaisi.CustomTextView
+                    android:id="@+id/grey_column_legend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/red_column_legend_image"
+                    android:layout_toRightOf="@+id/red_column_legend_image"
+                    android:text="@string/current_form_legend_text_personal_cab"
+                    android:textSize="@dimen/red_column_legend_text_size"
+                    app:typeface="MyriadPro-Light semiextended.ttf" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <lecho.lib.hellocharts.view.ColumnChartView
+            android:id="@+id/fun_chart"
+            android:layout_width="@dimen/chart_width_height"
+            android:layout_height="@dimen/chart_height"
+            android:layout_alignEnd="@+id/fun_forms"
+            android:layout_alignLeft="@+id/fun_forms"
+            android:layout_alignRight="@+id/fun_forms"
+            android:layout_alignStart="@+id/fun_forms"
+            android:layout_below="@+id/fun_forms"
+            android:layout_marginTop="@dimen/chart_margin" />
+
+        <RelativeLayout
+            android:id="@+id/legend_container_1"
+            android:layout_width="@dimen/legend_container_width"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/fun_chart"
+            android:layout_alignStart="@+id/fun_chart"
+            android:layout_below="@+id/fun_chart">
+
+            <RelativeLayout
+                android:id="@+id/grey_legend_1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/legend_height">
+
+                <ImageView
+                    android:id="@+id/red_column_legend_image_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/chart_legend_grey" />
+
+                <com.febaisi.CustomTextView
+                    android:id="@+id/red_column_legend_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/red_column_legend_image_1"
+                    android:layout_toEndOf="@+id/red_column_legend_image_1"
+                    android:layout_toRightOf="@+id/red_column_legend_image_1"
+                    android:text="@string/avg_form_legend_text"
+                    android:textSize="@dimen/red_column_legend_text_size"
+                    app:typeface="MyriadPro-Light semiextended.ttf" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/legend_height"
+                android:layout_below="@+id/grey_legend_1">
+
+                <ImageView
+                    android:id="@+id/grey_column_legend_image_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/chart_legend_red" />
+
+                <com.febaisi.CustomTextView
+                    android:id="@+id/grey_column_legend_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/grey_column_legend_image_1"
+                    android:layout_toEndOf="@+id/grey_column_legend_image_1"
+                    android:layout_toRightOf="@+id/grey_column_legend_image_1"
+                    android:text="@string/current_form_legend_text_personal_cab"
+                    android:textSize="@dimen/red_column_legend_text_size"
+                    app:typeface="MyriadPro-Light semiextended.ttf" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/expertise_block_height"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/personal_cab_charts_container"-->
+        <!--android:background="@color/expertise_block_color">-->
+
+        <!--<com.febaisi.CustomTextView-->
+            <!--android:id="@+id/expertise_title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="@dimen/passed_forms_title_margin_left"-->
+            <!--android:layout_marginStart="@dimen/passed_forms_title_margin_left"-->
+            <!--android:text="@string/expertise_title"-->
+            <!--android:textColor="@color/sign_in_input_text"-->
+            <!--android:textSize="@dimen/passed_forms_title_text_size"-->
+            <!--android:textStyle="bold"-->
+            <!--app:typeface="MyriadPro-Regular.ttf" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="@dimen/expertise_button_width_height"-->
+            <!--android:layout_height="@dimen/expertise_button_width_height"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginEnd="@dimen/expertise_button_margin"-->
+            <!--android:layout_marginRight="@dimen/expertise_button_margin"-->
+            <!--android:src="@drawable/expertise_arrow" />-->
+
+    <!--</RelativeLayout>-->
+
+</RelativeLayout>

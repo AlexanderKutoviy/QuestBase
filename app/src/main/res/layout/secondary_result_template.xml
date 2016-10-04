@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/form_result_card_content_margin"
+    android:orientation="vertical"
+    android:id="@+id/optional_layout">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="@color/black"
+        android:textSize="@dimen/feed_result_title_text_size"
+        android:textStyle="bold"
+        android:id="@+id/secTitle"/>
+
+    <com.questbase.app.utils.AdjustableImageView
+        android:id="@+id/sec_result_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/form_result_image_vertical_margin"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:id="@+id/sec_result_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left" />
+</LinearLayout>

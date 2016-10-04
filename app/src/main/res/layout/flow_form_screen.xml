@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.questbase.app.form.mvp.DefaultFormView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/form_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_for_feed">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_questionnaire_height"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        android:layout_marginBottom="@dimen/header_bottom"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="@dimen/questionnaire_logo_width"
+            android:layout_height="@dimen/header_questionnaire_height"
+            android:padding="@dimen/logo_questionnaire_padding"
+            android:src="@drawable/logo_for_header" />
+
+        <com.febaisi.CustomTextView
+            android:id="@+id/form_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/header_questionnaire_height"
+            android:layout_toRightOf="@+id/logo"
+            android:gravity="center|left"
+            android:textColor="@color/form_title_in_header"
+            android:textSize="@dimen/header_text_size"
+            app:typeface="MyriadPro-Light semiextended.ttf" />
+    </RelativeLayout>
+
+</com.questbase.app.form.mvp.DefaultFormView>

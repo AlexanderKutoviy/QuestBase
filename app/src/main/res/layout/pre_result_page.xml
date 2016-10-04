@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/pre_result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:paddingBottom="@dimen/pre_result_text_bottom"
+        android:paddingLeft="@dimen/pre_result_text_left"
+        android:paddingRight="@dimen/pre_result_text_right"
+        android:paddingTop="@dimen/pre_result_text_top"
+        android:text="@string/pre_result_text"
+        android:textColor="@color/pre_result_text"
+        android:textSize="@dimen/pre_result_text_size"
+        android:textStyle="bold"
+        app:typeface="MyriadPro-Regular.ttf" />
+
+    <ImageView
+        android:id="@+id/robo"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/robo_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pre_result_text"
+        android:gravity="center"
+        android:padding="@dimen/robo_padding"
+        android:src="@drawable/robo" />
+
+    <Button
+        android:id="@+id/go_to_result"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pre_result_btn_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/robo"
+        android:layout_marginLeft="@dimen/pre_result_btn_right"
+        android:layout_marginRight="@dimen/pre_result_btn_left"
+        android:layout_marginTop="@dimen/go_to_personal_result_btn_margin_top"
+        android:background="@color/pre_result_text"
+        android:button="@null"
+        android:text="@string/personal_result_text"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

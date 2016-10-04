@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/cell_confirmation_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/perform_transaction_header_margin"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/perform_transaction_header"
+        android:textStyle="bold"
+        app:typeface="MyriadPro-Regular.ttf" />
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/change_number_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cell_confirmation_text"
+        android:layout_alignStart="@+id/cell_confirmation_text"
+        android:layout_below="@+id/cell_confirmation_text"
+        android:layout_marginTop="@dimen/semi_header_margin_top"
+        android:text="@string/change_number_text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/semi_header_text_size"
+        app:typeface="MyriadPro-Light semiextended.ttf" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/change_number_text"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/confirm_btn"
+            android:layout_width="@dimen/transactions_popup_button_width"
+            android:layout_height="@dimen/transactions_popup_button_height"
+            android:layout_marginTop="@dimen/transaction_side_margins"
+            android:background="@drawable/popup_approve_btn"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/accept_transaction"
+            android:textColor="@color/white"
+            android:textSize="@dimen/accept_transaction_text_size" />
+
+        <CheckBox
+            android:id="@+id/decline_btn"
+            android:layout_width="@dimen/transactions_popup_button_width"
+            android:layout_height="@dimen/transactions_popup_button_height"
+            android:layout_marginLeft="@dimen/confirm_btn_margin_left"
+            android:layout_marginTop="@dimen/transaction_side_margins"
+            android:layout_toRightOf="@+id/confirm_btn"
+            android:background="@drawable/popup_decline_btn"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/decline_transaction"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</RelativeLayout>

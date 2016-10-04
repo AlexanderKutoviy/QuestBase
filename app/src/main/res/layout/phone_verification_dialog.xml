@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:id="@+id/phone_verification_dialog"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/phone_verification_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Ти не додав свій номер"
+        android:textSize="25dp"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/grey_light">
+        <TextView
+            android:id="@+id/phone_verification_explanation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Додай свій номер, щоб мати змогу вивести свій баланс. "
+            android:textSize="18dp"
+            android:textColor="@color/black"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/phone_verification_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Номер: "
+            android:textSize="18dp"
+            android:textColor="@color/black"></TextView>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:textSize="18dp"
+        android:inputType="phone"
+        android:hint="+380(***)(*******)" />
+
+    <Button
+        android:id="@+id/verificate_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/grey_light_light"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="OK" />
+</LinearLayout>

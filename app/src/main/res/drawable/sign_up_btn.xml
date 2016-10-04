@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/logo_sign_up_btn" />
+            <corners android:bottomLeftRadius="0dip" android:bottomRightRadius="0dp" android:topLeftRadius="@dimen/corners_btn" android:topRightRadius="@dimen/corners_btn" />
+        </shape>
+    </item>
+</selector>

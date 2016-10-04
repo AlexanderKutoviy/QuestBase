@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/configs_block"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/configs_block_height"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/forms_block"
+    android:layout_marginLeft="@dimen/transactions_block_side_margins"
+    android:layout_marginRight="@dimen/transactions_block_side_margins"
+    android:background="@color/white">
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/profile_configs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/passed_forms_title_margin_left"
+        android:layout_marginStart="@dimen/passed_forms_title_margin_left"
+        android:layout_marginTop="@dimen/passed_forms_title_margin_top"
+        android:text="@string/user_configs_title"
+        android:textColor="@color/sign_in_input_text"
+        android:textSize="@dimen/user_configs_title_text_size"
+        android:textStyle="bold"
+        app:typeface="MyriadPro-Regular.ttf" />
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/users_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/profile_configs"
+        android:layout_alignStart="@+id/profile_configs"
+        android:layout_below="@+id/profile_configs"
+        android:layout_marginTop="@dimen/user_email_margin_top"
+        android:text="@string/user_email"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/nothing_to_show_text"
+        android:textSize="@dimen/user_configs_email_text_size"
+        android:textStyle="bold"
+        app:typeface="MyriadPro-Regular.ttf" />
+
+    <LinearLayout
+        android:id="@+id/emails_layout"
+        android:layout_width="@dimen/emails_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/users_email"
+        android:layout_marginLeft="@dimen/emails_layout_margin_left"
+        android:layout_marginStart="@dimen/emails_layout_margin_left"
+        android:layout_toEndOf="@+id/users_phone"
+        android:layout_toRightOf="@+id/users_phone"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/user_email_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/change_email_btn"
+        android:layout_width="@dimen/configs_btn_width"
+        android:layout_height="@dimen/change_btn_hight"
+        android:layout_alignTop="@+id/emails_layout"
+        android:layout_marginEnd="@dimen/configs_btn_margin_right"
+        android:layout_marginLeft="@dimen/configs_btn_margin_left"
+        android:layout_marginRight="@dimen/configs_btn_margin_right"
+        android:layout_marginStart="@dimen/configs_btn_margin_left"
+        android:layout_toEndOf="@+id/emails_layout"
+        android:layout_toRightOf="@+id/emails_layout"
+        android:background="@drawable/profile_configs_button"
+        android:text="@string/users_config_btn_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/change_btn_text_size" />
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:layout_below="@+id/emails_layout"
+        android:layout_marginTop="@dimen/portfolio_block_top_margin"
+        android:background="@color/grey_light" />
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/users_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/users_email"
+        android:layout_alignStart="@+id/users_email"
+        android:layout_below="@+id/divider1"
+        android:layout_marginTop="@dimen/user_pass_margin_top"
+        android:text="@string/pass_text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/nothing_to_show_text"
+        android:textSize="@dimen/user_configs_email_text_size"
+        android:textStyle="bold"
+        app:typeface="MyriadPro-Regular.ttf" />
+
+    <Button
+        android:id="@+id/change_pass_btn"
+        android:layout_width="@dimen/configs_btn_width"
+        android:layout_height="@dimen/change_btn_hight"
+        android:layout_alignLeft="@+id/change_email_btn"
+        android:layout_alignStart="@+id/change_email_btn"
+        android:layout_alignTop="@+id/users_password"
+        android:layout_marginEnd="@dimen/configs_btn_margin_right"
+        android:layout_marginRight="@dimen/configs_btn_margin_right"
+        android:background="@drawable/profile_configs_button"
+        android:text="@string/users_config_btn_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/change_btn_text_size" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:layout_below="@+id/change_pass_btn"
+        android:layout_marginTop="@dimen/portfolio_block_top_margin"
+        android:background="@color/grey_light" />
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/users_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/profile_configs"
+        android:layout_alignStart="@+id/profile_configs"
+        android:layout_below="@+id/divider2"
+        android:layout_marginTop="@dimen/user_email_margin_top"
+        android:text="@string/phone_number"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/nothing_to_show_text"
+        android:textSize="@dimen/user_configs_email_text_size"
+        android:textStyle="bold"
+        app:typeface="MyriadPro-Regular.ttf" />
+
+    <LinearLayout
+        android:id="@+id/phones_layout"
+        android:layout_width="@dimen/emails_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/users_phone"
+        android:layout_marginLeft="@dimen/emails_layout_margin_left"
+        android:layout_marginStart="@dimen/emails_layout_margin_left"
+        android:layout_toEndOf="@+id/users_phone"
+        android:layout_toRightOf="@+id/users_phone"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/user_phone_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/change_phone_btn"
+        android:layout_width="@dimen/configs_btn_width"
+        android:layout_height="@dimen/change_btn_hight"
+        android:layout_alignLeft="@+id/change_pass_btn"
+        android:layout_alignStart="@+id/change_pass_btn"
+        android:layout_alignTop="@+id/phones_layout"
+        android:layout_marginEnd="@dimen/configs_btn_margin_right"
+        android:layout_marginRight="@dimen/configs_btn_margin_right"
+        android:background="@drawable/profile_configs_button"
+        android:text="@string/users_config_btn_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/change_btn_text_size" />
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/check_radio_width"
+    android:layout_height="@dimen/check_radio_height"
+    android:layout_marginRight="@dimen/image_margin_right"
+    android:layout_marginTop="@dimen/image_margin_top">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/radio_answer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/check_image_selector"
+            android:button="@null"
+            android:clickable="true"
+            android:orientation="vertical" />
+
+        <ImageView
+            android:id="@+id/radio_image"
+            android:layout_width="@dimen/check_radio_image_width"
+            android:layout_height="@dimen/check_radio_image_height"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/image_question_margin_left"
+            android:layout_marginRight="@dimen/image_question_margin_right"
+            android:layout_marginTop="@dimen/image_question_margin_top"
+            android:background="@color/white" />
+
+        <CheckBox
+            android:id="@+id/radio_icon"
+            android:layout_width="@dimen/radio_image_radio_icon_size"
+            android:layout_height="@dimen/radio_image_radio_icon_size"
+            android:layout_alignBottom="@+id/radio_image"
+            android:layout_alignRight="@+id/radio_image"
+            android:adjustViewBounds="true"
+            android:background="@drawable/radio_image_selector"
+            android:button="@null"
+            android:clickable="false" />
+    </RelativeLayout>
+</LinearLayout>

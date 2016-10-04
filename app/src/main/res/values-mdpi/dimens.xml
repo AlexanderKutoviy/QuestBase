@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--login-->
+    <dimen name="login_card_margin_top">150dp</dimen>
+    <dimen name="login_card_margin_side">10.5dp</dimen>
+    <dimen name="login_button_width">65.5dp</dimen>
+    <dimen name="login_card_margin_top_btn">15dp</dimen>
+    <dimen name="login_button_height">65.5dp</dimen>
+    <dimen name="login_greeting_side">17dp</dimen>
+    <dimen name="login_greeting_top">15dp</dimen>
+    <dimen name="login_button_halfmargin_left">5dp</dimen>
+    <dimen name="login_button_halfmargin_right">5dp</dimen>
+    <dimen name="authorship_text_size">15sp</dimen>
+    <dimen name="internet_warning_text_size">15.75sp</dimen>
+    <dimen name="no_internet_message_side">10dp</dimen>
+    <dimen name="no_internet_message_top">15dp</dimen>
+    <dimen name="login_greeting_text_size">15.5sp</dimen>
+    <dimen name="login_mail_auth_btn_width">140dp</dimen>
+    <dimen name="login_mail_auth_btn_top">35dp</dimen>
+
+    <!--money popups-->
+    <dimen name="charity_avatars_size">140dp</dimen>
+    <dimen name="charity_avatar_text_size">14.5sp</dimen>
+    <dimen name="charity_avatar_params">111dp</dimen>
+    <dimen name="transaction_side_margins">12dp</dimen>
+    <dimen name="transaction_btns_margin_top">2dp</dimen>
+    <dimen name="charity_avatar_margin_left">17dp</dimen>
+    <dimen name="charity_avatar_margin_right">8dp</dimen>
+    <dimen name="charity_margin_bottom_left_press">118dp</dimen>
+    <dimen name="charity_margin_top_rigth_press">8.7dp</dimen>
+    <dimen name="charity_margin_bottom_left_check">119.7dp</dimen>
+    <dimen name="charity_margin_top_rigth_check">9.9dp</dimen>
+    <dimen name="transaction_btns_top">20dp</dimen>
+    <dimen name="charity_stroke_width_press">2.4dp</dimen>
+    <dimen name="charity_stroke_width">1.7dp</dimen>
+    <dimen name="charity_pets_right">39dp</dimen>
+    <dimen name="charity_army_left">17dp</dimen>
+
+    <!--feed-->
+    <dimen name="feed_form_text_width">293dp</dimen>
+    <dimen name="feed_form_recycler_top">152dp</dimen>
+
+    <!--swiper-->
+    <dimen name="swiper_height">670dp</dimen>
+    <dimen name="swiper_view_height">645dp</dimen>
+    <dimen name="swiper_view_width">422dp</dimen>
+    <dimen name="form_quesion_text_size">15.5sp</dimen>
+    <dimen name="statistic_margin_bottom">18dp</dimen>
+    <dimen name="radio_check_text_size">13.5sp</dimen>
+    <dimen name="statistic_margin_top">585dp</dimen>
+    <dimen name="form_statistic_text_size">13sp</dimen>
+    <dimen name="image_scroll_thumb_right">10.66dp</dimen>
+    <dimen name="image_scroll_thumb_left">4dp</dimen>
+    <dimen name="image_scroll_track_left">4.06dp</dimen>
+    <dimen name="image_scroll_track_right">10.8dp</dimen>
+    <dimen name="answers_margin_top">83.5dp</dimen>
+    <dimen name="bulk_image_side">6.7dp</dimen>
+    <dimen name="bulk_text_size_checks">12.45sp</dimen>
+    <dimen name="bulk_scroll_track_left">9dp</dimen>
+    <dimen name="bulk_scrollbar_track_right">10.1dp</dimen>
+    <dimen name="bulk_scroll_thumb_left">8.85dp</dimen>
+    <dimen name="bulk_scrollbar_thumb_right">9.95dp</dimen>
+    <dimen name="check_radio_width">111dp</dimen>
+    <dimen name="check_radio_image_width">103.1dp</dimen>
+    <dimen name="check_left">37dp</dimen>
+    <dimen name="image_margin_right">0.0dp</dimen>
+    <dimen name="image_question_margin_right">0.0dp</dimen>
+    <dimen name="image_question_margin_left">3.5dp</dimen>
+    <dimen name="bulk_image_check_high">45.5dp</dimen>
+    <dimen name="bulk_image_text_size_checks">13.1sp</dimen>
+    <dimen name="bulk_image_text_size">11.7sp</dimen>
+    <dimen name="bulk_image_text_height">35dp</dimen>
+    <dimen name="bulk_image_checks_width">26.15dp</dimen>
+    <dimen name="traffic_scrollbar_thumb_right">6.53dp</dimen>
+    <dimen name="traffic_scrollbar_thumb_left">5.53dp</dimen>
+    <dimen name="traffic_scrollbar_track_left">5.95dp</dimen>
+    <dimen name="question_scrollbar_thumb_right">6.6dp</dimen>
+    <dimen name="button_margin_top">580dp</dimen>
+    <dimen name="robo_height">430dp</dimen>
+</resources>

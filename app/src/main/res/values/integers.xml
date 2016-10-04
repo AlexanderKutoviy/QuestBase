@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="check_button_weight">1</integer>
+    <integer name="users_email_ems">9</integer>
+    <integer name="users_pass_ems">10</integer>
+    <integer name="edit_new_pass_ems">7</integer>
+    <integer name="enter_money_ems">15</integer>
+    <integer name="edit_text_height">8</integer>
+    <integer name="edit_phone_number_length">5</integer>
+    <integer name="swiper_up_border">195</integer>
+    <integer name="swiper_bottom_border">670</integer>
+    <integer name="swiper_touch_distance">10</integer>
+    <integer name="duration_anim_move_to_start">350</integer>
+    <integer name="duration_fade_anim">275</integer>
+    <integer name="alpha_from_fade_anim">0</integer>
+    <integer name="alpha_to_fade_anim">1</integer>
+    <integer name="duration_zoom_anim">700</integer>
+    <integer name="duration_rotate_anim">1000</integer>
+    <integer name="from_degrees_rotate_anim">0</integer>
+    <integer name="to_degrees_rotate_anim">360</integer>
+</resources>

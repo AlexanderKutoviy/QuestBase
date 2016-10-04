@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Login-->
+    <dimen name="login_card_margin_top">135dp</dimen>
+    <dimen name="login_card_margin_side">15dp</dimen>
+    <dimen name="login_card_margin_top_btn">15dp</dimen>
+    <dimen name="login_button_width">54dp</dimen>
+    <dimen name="login_button_height">54dp</dimen>
+    <dimen name="login_greeting_bottom">15dp</dimen>
+    <dimen name="login_greeting_side">15dp</dimen>
+    <dimen name="login_greeting_top">17dp</dimen>
+    <dimen name="login_button_halfmargin_left">3dp</dimen>
+    <dimen name="login_button_halfmargin_right">3dp</dimen>
+    <dimen name="no_iternet_message_bottom">30dp</dimen>
+    <dimen name="internet_warning_text_size">15.3sp</dimen>
+    <dimen name="no_internet_message_top">15dp</dimen>
+    <dimen name="no_internet_message_side">8dp</dimen>
+    <dimen name="login_greeting_text_size">14sp</dimen>
+    <dimen name="authorship_text_size">14sp</dimen>
+    <dimen name="update_warning_text_size">14.7sp</dimen>
+
+    <!--money popups-->
+    <dimen name="charity_avatars_size">120dp</dimen>
+    <dimen name="charity_avatar_text_size">13sp</dimen>
+    <dimen name="charity_avatar_params">95dp</dimen>
+    <dimen name="transaction_side_margins">10dp</dimen>
+    <dimen name="transaction_btns_margin_top">2dp</dimen>
+    <dimen name="charity_avatar_margin_left">12dp</dimen>
+    <dimen name="charity_avatar_margin_right">5dp</dimen>
+    <dimen name="charity_margin_bottom_left_press">106.5dp</dimen>
+    <dimen name="charity_margin_top_rigth_press">6.5dp</dimen>
+    <dimen name="charity_margin_bottom_left_check">107.1dp</dimen>
+    <dimen name="charity_margin_top_rigth_check">7.2dp</dimen>
+    <dimen name="transaction_btns_top">20dp</dimen>
+    <dimen name="charity_stroke_width_press">2dp</dimen>
+    <dimen name="charity_stroke_width">1.4dp</dimen>
+    <dimen name="charity_pets_right">20dp</dimen>
+    <dimen name="charity_army_left">0dp</dimen>
+    <dimen name="spinner_margin_top">5dp</dimen>
+    <dimen name="transactions_popup_button_height">30dp</dimen>
+    <dimen name="transactions_popup_button_width">95dp</dimen>
+    <dimen name="perform_transaction_header_margin">20dp</dimen>
+    <dimen name="semi_header_text_size">14sp</dimen>
+    <dimen name="charity_stroke_margin_small_rect">100dp</dimen>
+    <dimen name="spinner_height">30dp</dimen>
+    <dimen name="spinner_text_size">12.8sp</dimen>
+
+    <!--feed-->
+    <dimen name="feed_form_text_width">200dp</dimen>
+    <dimen name="feed_form_recycler_top">142dp</dimen>
+
+    <!--swiper-->
+    <dimen name="form_quesion_text_size">5.2sp</dimen>
+    <dimen name="form_statistic_text_size">3.89sp</dimen>
+    <dimen name="image_scroll_thumb_right">6.62dp</dimen>
+    <dimen name="image_scroll_thumb_left">7.96dp</dimen>
+    <dimen name="bulk_text_size_checks">10sp</dimen>
+    <dimen name="bulk_radio_size">42dp</dimen>
+    <dimen name="check_radio_width">87dp</dimen>
+    <dimen name="check_radio_image_height">51.6dp</dimen>
+    <dimen name="image_margin_right">2dp</dimen>
+    <dimen name="check_radio_height">62.47dp</dimen>
+    <dimen name="check_radio_image_width">77.4dp</dimen>
+    <dimen name="image_question_margin_top">5.2dp</dimen>
+    <dimen name="image_question_margin_right">0.0dp</dimen>
+    <dimen name="image_question_margin_left">3.9dp</dimen>
+    <dimen name="bulk_image_check_high">39.5dp</dimen>
+    <dimen name="bulk_image_text_size_checks">9.5sp</dimen>
+    <dimen name="bulk_image_checks_width">16.5dp</dimen>
+    <dimen name="traffic_scrollbar_thumb_right">6.53dp</dimen>
+    <dimen name="traffic_scrollbar_thumb_left">5.53dp</dimen>
+    <dimen name="traffic_scrollbar_track_left">5.95dp</dimen>
+    <dimen name="question_scrollbar_thumb_right">6.6dp</dimen>
+</resources>

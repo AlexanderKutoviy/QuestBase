@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "981912453442",
+    "firebase_url": "https://therespo-dc37a.firebaseio.com",
+    "project_id": "therespo-dc37a",
+    "storage_bucket": "therespo-dc37a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981912453442:android:9df2f099f14f9168",
+        "android_client_info": {
+          "package_name": "com.therespo.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981912453442-kdg2u8df63uncsaa02nen04s0r6c9v70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.therespo.app",
+            "certificate_hash": "2F21FBECD2CD57FB0209DEFCA0F3BCE75D92E860"
+          }
+        },
+        {
+          "client_id": "981912453442-8fqevgnuvgq8iivlarqp7ahp570lokt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0YDM8RiVgNSlJAuRyvJXV6hkg94bc1OU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981912453442-8fqevgnuvgq8iivlarqp7ahp570lokt2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

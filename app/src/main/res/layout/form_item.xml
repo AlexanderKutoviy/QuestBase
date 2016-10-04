@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/feed_form_item_height"
+    android:layout_marginLeft="@dimen/feed_form_item_left"
+    android:layout_marginStart="@dimen/feed_form_item_left"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/form"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/feed_form_body_height"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/feed_form_body_side"
+        android:layout_marginRight="@dimen/feed_form_body_side"
+        android:layout_marginTop="@dimen/feed_form_body_top"
+        android:background="@drawable/form_selector"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/form_image"
+            android:layout_width="@dimen/feed_form_image_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/downloading_image" />
+
+        <com.febaisi.CustomTextView
+            android:id="@+id/form_body"
+            android:layout_width="@dimen/feed_form_text_width"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/form_image"
+            android:layout_toEndOf="@+id/form_image"
+            android:background="@color/search_bg"
+            android:paddingLeft="@dimen/feed_form_text_side"
+            android:paddingRight="@dimen/feed_form_text_side"
+            android:paddingTop="@dimen/feed_form_text_top"
+            app:typeface="MyriadPro-Regular.ttf" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_toRightOf="@+id/form_body"
+            android:layout_toEndOf="@+id/form_body"
+            android:paddingBottom="@dimen/feed_form_arrow_side_vertical"
+            android:paddingLeft="@dimen/feed_form_arrow_side_horizontal"
+            android:paddingRight="@dimen/feed_form_arrow_side_horizontal"
+            android:paddingTop="@dimen/feed_form_arrow_side_vertical"
+            android:scaleType="center"
+            android:src="@drawable/arrow_icon" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/form_category"
+        android:layout_width="@dimen/feed_form_category_size"
+        android:layout_height="@dimen/feed_form_category_size"
+        android:layout_marginLeft="@dimen/feed_form_category_left"
+        android:layout_marginStart="@dimen/feed_form_category_left"
+        android:layout_marginTop="@dimen/feed_form_category_top"
+        android:gravity="left" />
+
+</RelativeLayout>

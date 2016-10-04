@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.questbase.app.flowui.views.LoginView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_for_login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_card_margin_side"
+        android:layout_marginRight="@dimen/login_card_margin_side"
+        android:layout_marginTop="@dimen/login_card_margin_top"
+        android:background="@color/logo_auth_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/login_card_margin_side"
+            android:layout_marginRight="@dimen/login_card_margin_side"
+            android:layout_marginTop="@dimen/login_card_margin_top_btn"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/fb_login_button"
+                android:layout_width="@dimen/login_button_width"
+                android:layout_height="@dimen/login_button_height"
+                android:layout_marginLeft="@dimen/login_button_halfmargin_left"
+                android:layout_marginRight="@dimen/login_button_halfmargin_right"
+                android:background="@drawable/fb_button" />
+
+            <Button
+                android:id="@+id/vk_login_button"
+                android:layout_width="@dimen/login_button_width"
+                android:layout_height="@dimen/login_button_height"
+                android:layout_marginLeft="@dimen/login_button_halfmargin_left"
+                android:layout_marginRight="@dimen/login_button_halfmargin_right"
+                android:background="@drawable/vk_button" />
+
+            <Button
+                android:id="@+id/gp_login_button"
+                android:layout_width="@dimen/login_button_width"
+                android:layout_height="@dimen/login_button_height"
+                android:layout_marginLeft="@dimen/login_button_halfmargin_left"
+                android:layout_marginRight="@dimen/login_button_halfmargin_right"
+                android:background="@drawable/google_button" />
+
+            <Button
+                android:id="@+id/ok_login_button"
+                android:layout_width="@dimen/login_button_width"
+                android:layout_height="@dimen/login_button_height"
+                android:layout_marginLeft="@dimen/login_button_halfmargin_left"
+                android:layout_marginRight="@dimen/login_button_halfmargin_right"
+                android:background="@drawable/ok_disabled"
+                android:enabled="false"/>
+
+            <Button
+                android:id="@+id/mail_login_button"
+                android:layout_width="@dimen/login_button_width"
+                android:layout_height="@dimen/login_button_height"
+                android:layout_marginLeft="@dimen/login_button_halfmargin_left"
+                android:layout_marginRight="@dimen/login_button_halfmargin_right"
+                android:background="@drawable/mail_disabled"
+                android:enabled="false"/>
+        </LinearLayout>
+
+        <com.febaisi.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/login_greeting_bottom"
+            android:layout_marginLeft="@dimen/login_greeting_side"
+            android:layout_marginRight="@dimen/login_greeting_side"
+            android:layout_marginTop="@dimen/login_greeting_top"
+            android:clickable="true"
+            android:gravity="bottom"
+            android:textSize="@dimen/login_greeting_text_size"
+            android:text="@string/therespo_login_greeting"
+            app:typeface="MyriadPro-Light semiextended.ttf" />
+    </LinearLayout>
+
+    <com.febaisi.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/login_greeting_bottom"
+        android:layout_marginLeft="@dimen/login_greeting_side"
+        android:layout_marginRight="@dimen/login_greeting_side"
+        android:layout_marginTop="@dimen/login_greeting_top"
+        android:gravity="center"
+        android:text="@string/authorship"
+        android:textColor="@color/logo_auth_background"
+        android:textSize="@dimen/authorship_text_size"
+        app:typeface="Myriad Pro Light.ttf" />
+</com.questbase.app.flowui.views.LoginView>
+

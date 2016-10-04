@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="@dimen/margin_side_questions"
+    android:orientation="vertical">
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/first_item"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/legend_title_height"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/bulk_container_left"
+        android:layout_marginRight="@dimen/bulk_image_checks_right"
+        android:textColor="@color/text_answer"
+        android:textSize="@dimen/bulk_text_size_checks"
+        android:textStyle="bold"
+        app:typeface="MyriadPro-Regular.ttf"/>
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/second_item"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/legend_title_height"
+        android:layout_marginRight="@dimen/bulk_image_checks_right"
+        android:layout_toRightOf="@id/first_item"
+        android:textColor="@color/text_answer"
+        android:textSize="@dimen/bulk_text_size_checks"
+        android:textStyle="bold"
+        app:typeface="MyriadPro-Regular.ttf"/>
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/third_item"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/legend_title_height"
+        android:layout_alignEnd="@+id/five_item"
+        android:layout_alignRight="@+id/five_item"
+        android:layout_marginRight="@dimen/bulk_container_left"
+        android:layout_toRightOf="@+id/second_item"
+        android:textColor="@color/text_answer"
+        android:textSize="@dimen/bulk_text_size_checks"
+        android:textStyle="bold"
+        app:typeface="MyriadPro-Regular.ttf"/>
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/four_item"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/legend_title_height"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/first_item"
+        android:layout_marginLeft="@dimen/bulk_container_left"
+        android:layout_marginRight="@dimen/bulk_image_checks_right"
+        android:textColor="@color/text_answer"
+        android:textSize="@dimen/bulk_text_size_checks"
+        android:textStyle="bold"
+        app:typeface="MyriadPro-Regular.ttf"/>
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/five_item"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/legend_title_height"
+        android:layout_above="@+id/bulk_recycler"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/bulk_container_left"
+        android:layout_marginRight="@dimen/bulk_container_left"
+        android:layout_toEndOf="@+id/four_item"
+        android:layout_toRightOf="@+id/four_item"
+        android:textColor="@color/text_answer"
+        android:textSize="@dimen/bulk_text_size_checks"
+        android:textStyle="bold"
+        app:typeface="MyriadPro-Regular.ttf"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/bulk_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/four_item"
+        android:layout_marginTop="@dimen/image_recycler_top"
+        android:scrollbarThumbVertical="@drawable/question_scrollbar_thumb"
+        android:scrollbarTrackVertical="@drawable/question_scrollbar_track"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>

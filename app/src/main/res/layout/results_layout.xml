@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.questbase.app.personalresult.DefaultPersonalResultView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_for_feed"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/body"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <include
+                    android:id="@+id/header_layout"
+                    layout="@layout/header_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ViewSwitcher
+                    android:id="@+id/results_switcher"
+                    android:layout_width="@dimen/result_closed_block_width"
+                    android:layout_height="@dimen/result_opened_block_height"
+                    android:layout_below="@id/header_layout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="@dimen/opened_block_margins"
+                    android:layout_marginLeft="@dimen/opened_block_margins"
+                    android:layout_marginRight="@dimen/opened_block_margins"
+                    android:layout_marginStart="@dimen/opened_block_margins"
+                    android:layout_marginTop="@dimen/result_closed_block_margin_top">
+
+                    <include
+                        android:id="@+id/results_block"
+                        layout="@layout/results_block"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <RelativeLayout
+                        android:id="@+id/result_closed_block"
+                        android:layout_width="@dimen/closed_result_block_width"
+                        android:layout_height="@dimen/closed_result_block_height"
+                        android:layout_marginEnd="@dimen/opened_block_margins"
+                        android:layout_marginRight="@dimen/opened_block_margins"
+                        android:background="@drawable/result_page_block_selector">
+
+                        <com.febaisi.CustomTextView
+                            android:layout_width="@dimen/text_in_block_width"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/respos_title_margin_top_left"
+                            android:layout_marginStart="@dimen/respos_title_margin_top_left"
+                            android:layout_marginTop="@dimen/payment_title_margins"
+                            android:text="@string/personal_results"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/results_title_text_size"
+                            app:typeface="MyriadPro-Regular.ttf" />
+
+                        <ImageView
+                            android:layout_width="@dimen/btn_height"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginEnd="@dimen/btn_height"
+                            android:layout_marginLeft="@dimen/result_closed_block_img_margin_left"
+                            android:layout_marginRight="@dimen/btn_height"
+                            android:layout_marginStart="@dimen/result_closed_block_img_margin_left"
+                            android:src="@drawable/personal_res_markdown" />
+
+                    </RelativeLayout>
+
+                </ViewSwitcher>
+
+                <ViewSwitcher
+                    android:id="@+id/analytics_switcher"
+                    android:layout_width="@dimen/result_closed_block_width"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/results_switcher"
+                    android:layout_alignStart="@+id/results_switcher"
+                    android:layout_below="@+id/results_switcher"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="@dimen/opened_block_margins"
+                    android:layout_marginRight="@dimen/opened_block_margins"
+                    android:layout_marginTop="@dimen/analytics_closed_block_margin_top">
+
+                    <RelativeLayout
+                        android:id="@+id/closed_analytics_block"
+                        android:layout_width="@dimen/closed_result_block_width"
+                        android:layout_height="@dimen/closed_result_block_height"
+                        android:layout_marginEnd="@dimen/opened_block_margins"
+                        android:layout_marginRight="@dimen/opened_block_margins"
+                        android:background="@color/tab_select">
+
+                        <com.febaisi.CustomTextView
+                            android:layout_width="@dimen/text_in_block_width"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/respos_title_margin_top_left"
+                            android:layout_marginStart="@dimen/respos_title_margin_top_left"
+                            android:layout_marginTop="@dimen/payment_title_margins"
+                            android:text="@string/analytics_title"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/results_title_text_size"
+                            app:typeface="MyriadPro-Regular.ttf" />
+
+                        <ImageView
+                            android:layout_width="@dimen/btn_height"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginEnd="@dimen/btn_height"
+                            android:layout_marginLeft="@dimen/result_closed_block_img_margin_left"
+                            android:layout_marginRight="@dimen/btn_height"
+                            android:layout_marginStart="@dimen/result_closed_block_img_margin_left"
+                            android:src="@drawable/personal_res_markdown" />
+                    </RelativeLayout>
+
+                </ViewSwitcher>
+
+                <ViewSwitcher
+                    android:id="@+id/payment_switcher"
+                    android:layout_width="@dimen/result_closed_block_width"
+                    android:layout_height="@dimen/result_closed_block_height"
+                    android:layout_alignLeft="@+id/results_switcher"
+                    android:layout_alignStart="@+id/results_switcher"
+                    android:layout_below="@+id/analytics_switcher"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="@dimen/opened_block_margins"
+                    android:layout_marginRight="@dimen/opened_block_margins"
+                    android:layout_marginTop="@dimen/analytics_closed_block_margin_top">
+
+                    <RelativeLayout
+                        android:id="@+id/closed_payment_block"
+                        android:layout_width="@dimen/closed_result_block_width"
+                        android:layout_height="@dimen/closed_result_block_height"
+                        android:layout_marginEnd="@dimen/opened_block_margins"
+                        android:layout_marginRight="@dimen/opened_block_margins"
+                        android:background="@drawable/result_page_block_selector">
+
+                        <com.febaisi.CustomTextView
+                            android:layout_width="@dimen/text_in_block_width"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/respos_title_margin_top_left"
+                            android:layout_marginStart="@dimen/respos_title_margin_top_left"
+                            android:layout_marginTop="@dimen/payment_title_margins"
+                            android:text="@string/payment_title"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/results_title_text_size"
+                            app:typeface="MyriadPro-Regular.ttf" />
+
+                        <ImageView
+                            android:layout_width="@dimen/btn_height"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginEnd="@dimen/btn_height"
+                            android:layout_marginLeft="@dimen/result_closed_block_img_margin_left"
+                            android:layout_marginRight="@dimen/btn_height"
+                            android:layout_marginStart="@dimen/result_closed_block_img_margin_left"
+                            android:src="@drawable/personal_res_markdown" />
+
+                    </RelativeLayout>
+
+                    <include
+                        android:id="@+id/payment_layout"
+                        layout="@layout/payment_block_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/opened_block_margin_bottom" />
+
+                </ViewSwitcher>
+
+            </RelativeLayout>
+        </ScrollView>
+    </FrameLayout>
+
+    <com.questbase.app.flowui.drawer.RespoDrawerView
+        android:id="@+id/left_drawer"
+        android:layout_width="@dimen/drawer_list_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@color/white"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent" />
+</com.questbase.app.personalresult.DefaultPersonalResultView>

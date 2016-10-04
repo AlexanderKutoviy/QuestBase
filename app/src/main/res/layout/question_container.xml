@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/question_container_traffic"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/question_container_right"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/bulk_image_checks_width"
+            android:layout_height="@dimen/bulk_image_checks_height"
+            android:layout_marginRight="@dimen/bulk_image_checks_right"
+            android:background="@color/red" />
+
+        <com.febaisi.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/bulk_image_checks_right"
+            android:gravity="center"
+            android:paddingBottom="@dimen/bulk_image_text_bottom"
+            android:text="@string/bulk_not_recommend"
+            android:textColor="@color/text_answer"
+            android:textSize="@dimen/bulk_image_text_size_checks"
+            android:textStyle="bold"
+            app:typeface="MyriadPro-Regular.ttf" />
+
+        <ImageView
+            android:layout_width="@dimen/bulk_image_checks_width"
+            android:layout_height="@dimen/bulk_image_checks_height"
+            android:layout_marginRight="@dimen/bulk_image_checks_right"
+            android:background="@color/yellow" />
+
+        <com.febaisi.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/bulk_image_checks_right"
+            android:gravity="center"
+            android:paddingBottom="@dimen/bulk_image_text_bottom"
+            android:text="@string/bulk_analog"
+            android:textColor="@color/text_answer"
+            android:textSize="@dimen/bulk_image_text_size_checks"
+            android:textStyle="bold"
+            app:typeface="MyriadPro-Regular.ttf" />
+
+        <ImageView
+            android:layout_width="@dimen/bulk_image_checks_width"
+            android:layout_height="@dimen/bulk_image_checks_height"
+            android:layout_marginRight="@dimen/bulk_image_checks_right"
+            android:background="@color/green" />
+
+        <com.febaisi.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/bulk_image_checks_right"
+            android:gravity="center"
+            android:paddingBottom="@dimen/bulk_image_text_bottom"
+            android:text="@string/bulk_recomend"
+            android:textColor="@color/text_answer"
+            android:textSize="@dimen/bulk_image_text_size_checks"
+            android:textStyle="bold"
+            app:typeface="MyriadPro-Regular.ttf" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/bulk_image_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/traffic_recycler_right"
+        android:layout_marginTop="@dimen/image_recycler_top"
+        android:scrollbarThumbVertical="@drawable/traffic_scrollbar_thumb"
+        android:scrollbarTrackVertical="@drawable/traffic_scrollbar_track"
+        android:scrollbars="vertical" />
+</LinearLayout>

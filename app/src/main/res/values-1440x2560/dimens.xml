@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Login-->
+    <dimen name="login_card_margin_top">135dp</dimen>
+    <dimen name="login_card_margin_side">15dp</dimen>
+    <dimen name="login_card_margin_top_btn">15dp</dimen>
+    <dimen name="login_button_width">54dp</dimen>
+    <dimen name="login_button_height">54dp</dimen>
+    <dimen name="login_greeting_bottom">15dp</dimen>
+    <dimen name="login_greeting_side">15dp</dimen>
+    <dimen name="login_greeting_top">17dp</dimen>
+    <dimen name="login_button_halfmargin_left">3dp</dimen>
+    <dimen name="login_button_halfmargin_right">3dp</dimen>
+    <dimen name="no_iternet_message_bottom">30dp</dimen>
+    <dimen name="internet_warning_text_size">15.3sp</dimen>
+    <dimen name="no_internet_message_top">15dp</dimen>
+    <dimen name="no_internet_message_side">8dp</dimen>
+    <dimen name="login_greeting_text_size">14sp</dimen>
+    <dimen name="authorship_text_size">14sp</dimen>
+    <dimen name="update_warning_text_size">14.7sp</dimen>
+
+    <!--money popups-->
+    <dimen name="charity_avatars_size">140dp</dimen>
+    <dimen name="charity_avatar_text_size">14.5sp</dimen>
+    <dimen name="charity_avatar_params">111dp</dimen>
+    <dimen name="transaction_side_margins">12dp</dimen>
+    <dimen name="transaction_btns_margin_top">2dp</dimen>
+    <dimen name="charity_avatar_margin_left">17dp</dimen>
+    <dimen name="charity_avatar_margin_right">8dp</dimen>
+    <dimen name="charity_margin_bottom_left_press">118dp</dimen>
+    <dimen name="charity_margin_top_rigth_press">8.7dp</dimen>
+    <dimen name="charity_margin_bottom_left_check">119.7dp</dimen>
+    <dimen name="charity_margin_top_rigth_check">9.9dp</dimen>
+    <dimen name="transaction_btns_top">20dp</dimen>
+    <dimen name="charity_stroke_width_press">2.4dp</dimen>
+    <dimen name="charity_stroke_width">1.7dp</dimen>
+    <dimen name="charity_pets_right">30dp</dimen>
+    <dimen name="charity_army_left">14dp</dimen>
+    <dimen name="radio_check_text_height">48dp</dimen>
+</resources>

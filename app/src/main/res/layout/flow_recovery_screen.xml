@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.questbase.app.flowui.views.RecoveryView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/auth_mail_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_for_login"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_card_margin_side"
+        android:layout_marginRight="@dimen/login_card_margin_side"
+        android:layout_marginTop="@dimen/login_card_margin_top"
+        android:background="@color/logo_auth_background"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <com.febaisi.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/login_greeting_bottom"
+            android:layout_marginLeft="@dimen/login_greeting_side"
+            android:layout_marginRight="@dimen/login_greeting_side"
+            android:layout_marginTop="@dimen/login_greeting_top"
+            android:clickable="true"
+            android:gravity="top"
+            android:text="@string/recover_msg"
+            app:typeface="MyriadPro-Light semiextended.ttf" />
+
+        <EditText
+            android:id="@+id/email_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/login_edit_text_side"
+            android:layout_marginRight="@dimen/login_edit_text_side"
+            android:hint="@string/email"
+            android:inputType="textWebEmailAddress"
+            android:textColor="@color/sign_in_input_text"
+            android:textColorHint="@color/sign_in_edit_text" />
+
+        <Button
+            android:id="@+id/auth_sign_in_btn"
+            android:layout_width="@dimen/login_mail_auth_btn_width"
+            android:layout_height="@dimen/login_mail_btn_height"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/login_mail_auth_btn_top"
+            android:background="@drawable/red_background_btn"
+            android:text="@string/recovery_send_btn"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <com.febaisi.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/login_greeting_bottom"
+        android:layout_marginLeft="@dimen/login_greeting_side"
+        android:layout_marginRight="@dimen/login_greeting_side"
+        android:layout_marginTop="@dimen/login_greeting_top"
+        android:gravity="center"
+        android:text="@string/authorship"
+        android:textColor="@color/logo_auth_background"
+        android:textSize="@dimen/authorship_text_size"
+        app:typeface="Myriad Pro Light.ttf" />
+</com.questbase.app.flowui.views.RecoveryView>

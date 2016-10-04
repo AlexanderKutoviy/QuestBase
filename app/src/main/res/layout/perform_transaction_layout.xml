@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/perform_transaction_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/perform_transaction_header_margin"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/perform_transaction_header"
+        android:textStyle="bold"
+        app:typeface="MyriadPro-Regular.ttf" />
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/perform_transaction_semi_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/perform_transaction_header"
+        android:layout_alignStart="@+id/perform_transaction_header"
+        android:layout_below="@+id/perform_transaction_header"
+        android:layout_marginTop="@dimen/semi_header_margin_top"
+        android:text="@string/perform_transaction_semi_header_text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/semi_header_text_size"
+        app:typeface="MyriadPro-Light semiextended.ttf" />
+
+    <EditText
+        android:id="@+id/enter_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/perform_transaction_semi_header"
+        android:layout_alignStart="@+id/perform_transaction_semi_header"
+        android:layout_below="@+id/perform_transaction_semi_header"
+        android:layout_marginTop="@dimen/enter_money_margin_top"
+        android:ems="@integer/enter_money_ems"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/transaction_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/enter_money"
+        android:layout_alignLeft="@+id/enter_money"
+        android:layout_alignRight="@+id/enter_money"
+        android:layout_alignStart="@+id/enter_money"
+        android:layout_below="@+id/enter_money"
+        android:layout_marginTop="@dimen/spinner_margin_top"
+        android:background="@android:color/transparent"
+        android:popupBackground="@null" />
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/more_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/transaction_choice"
+        android:layout_alignStart="@+id/transaction_choice"
+        android:layout_below="@+id/transaction_choice"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/transaction_more_info_top"
+        android:text="@string/more_info_about_charity_transactions"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        app:typeface="MyriadPro-Light semiextended.ttf" />
+
+    <RelativeLayout
+        android:id="@+id/army_avatar"
+        android:layout_width="@dimen/charity_avatars_size"
+        android:layout_height="@dimen/charity_avatars_size"
+        android:layout_below="@+id/more_info"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/army_check_box"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/charity_bg_selector"
+            android:button="@null" />
+
+        <ImageView
+            android:id="@+id/army_icon"
+            android:layout_width="@dimen/charity_avatar_params"
+            android:layout_height="@dimen/charity_avatar_params"
+            android:layout_marginLeft="@dimen/charity_avatar_margin_left"
+            android:layout_marginRight="@dimen/charity_avatar_margin_right"
+            android:src="@drawable/charity_1" />
+
+        <com.febaisi.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/army_icon"
+            android:gravity="center"
+            android:paddingBottom="@dimen/charity_name_padding_bottom"
+            android:text="@string/charity_folk_rear"
+            android:textColor="@color/sign_in_input_text"
+            android:textSize="@dimen/charity_avatar_text_size"
+            android:textStyle="bold"
+            app:typeface="Myriad Pro Light.ttf" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pets_avatar"
+        android:layout_width="@dimen/charity_avatars_size"
+        android:layout_height="@dimen/charity_avatars_size"
+        android:layout_alignTop="@+id/army_avatar"
+        android:layout_toRightOf="@+id/army_avatar"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/pets_check_box"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/charity_bg_selector"
+            android:button="@null"
+            android:checked="true" />
+
+        <ImageView
+            android:id="@+id/pets_icon"
+            android:layout_width="@dimen/charity_avatar_params"
+            android:layout_height="@dimen/charity_avatar_params"
+            android:layout_marginLeft="@dimen/charity_avatar_margin_left"
+            android:layout_marginRight="@dimen/charity_avatar_margin_right"
+            android:src="@drawable/charity_2" />
+
+        <com.febaisi.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/pets_icon"
+            android:gravity="center"
+            android:paddingBottom="@dimen/charity_name_padding_bottom"
+            android:text="@string/happy_paw"
+            android:textColor="@color/sign_in_input_text"
+            android:textSize="@dimen/charity_avatar_text_size"
+            android:textStyle="bold"
+            app:typeface="Myriad Pro Light.ttf" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/transaction_btns"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/transaction_btns_margin_top"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/perform_transaction_button"
+            android:layout_width="@dimen/transactions_popup_button_width"
+            android:layout_height="@dimen/transactions_popup_button_height"
+            android:background="@drawable/popup_approve_btn"
+            android:button="@null"
+            android:checked="true"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="@string/accept_transaction"
+            android:textColor="@color/white"
+            android:textSize="@dimen/accept_transaction_text_size" />
+
+        <CheckBox
+            android:id="@+id/decline_transaction_button"
+            android:layout_width="@dimen/transactions_popup_button_width"
+            android:layout_height="@dimen/transactions_popup_button_height"
+            android:layout_marginLeft="@dimen/confirm_btn_margin_left"
+            android:layout_toRightOf="@+id/perform_transaction_button"
+            android:background="@drawable/popup_decline_btn"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/decline_transaction"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</RelativeLayout>

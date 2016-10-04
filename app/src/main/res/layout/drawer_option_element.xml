@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><!--Relative layout is expected as parent here-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_option_content"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/drawer_option_height"
+    android:clickable="false">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/drawer_option_separator_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/drawer_option_separator" />
+
+    <View
+        android:id="@+id/drawer_option_indicator"
+        android:layout_width="@dimen/drawer_option_indicator_width"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/drawer_option_indicator"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/drawer_option_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/drawer_option_text_margin_left"
+        android:textSize="@dimen/drawer_option_text_size" />
+</RelativeLayout>

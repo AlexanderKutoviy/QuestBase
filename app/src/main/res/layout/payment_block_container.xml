@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/payment_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/payment_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/payment_title_margins"
+        android:layout_marginStart="@dimen/payment_title_margins"
+        android:layout_marginTop="@dimen/payment_title_margins"
+        android:text="@string/payment_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/login_background"
+        app:typeface="MyriadPro-Regular.ttf" />
+
+    <ImageView
+        android:id="@+id/pocket_logo"
+        android:layout_width="@dimen/payment_images_params"
+        android:layout_height="@dimen/payment_images_params"
+        android:layout_alignLeft="@+id/payment_title"
+        android:layout_alignStart="@+id/payment_title"
+        android:layout_below="@+id/payment_title"
+        android:layout_marginTop="@dimen/payment_image_margin_top"
+        android:src="@drawable/wallet" />
+
+    <ImageView
+        android:id="@+id/hat_logo"
+        android:layout_width="@dimen/payment_images_params"
+        android:layout_height="@dimen/payment_images_params"
+        android:layout_alignLeft="@+id/pocket_logo"
+        android:layout_alignStart="@+id/pocket_logo"
+        android:layout_below="@+id/pocket_logo"
+        android:layout_marginTop="@dimen/payment_image_margin_top"
+        android:src="@drawable/cap" />
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/pocket_text"
+        android:layout_width="@dimen/payment_text_width"
+        android:layout_height="@dimen/payment_images_params"
+        android:layout_alignBottom="@+id/pocket_logo"
+        android:layout_marginLeft="@dimen/payment_text_margin_left"
+        android:layout_marginStart="@dimen/payment_text_margin_left"
+        android:layout_toEndOf="@+id/payment_title"
+        android:layout_toRightOf="@+id/payment_title"
+        android:text="@string/pocket_logo_text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        app:typeface="Myriad Pro Light.ttf" />
+
+    <com.febaisi.CustomTextView
+        android:id="@+id/hat_text"
+        android:layout_width="@dimen/payment_text_width"
+        android:layout_height="@dimen/payment_text_height"
+        android:layout_alignLeft="@+id/pocket_text"
+        android:layout_alignStart="@+id/pocket_text"
+        android:layout_alignTop="@+id/hat_logo"
+        android:text="@string/hat_text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        app:typeface="Myriad Pro Light.ttf" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:layout_below="@+id/hat_text"
+        android:layout_marginTop="@dimen/divider_margin_top"
+        android:background="@color/grey_light" />
+
+    <Button
+        android:id="@+id/personal_cab_btn"
+        android:layout_width="@dimen/personal_cab_btn_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hat_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/payment_btn_margin_bottom"
+        android:layout_marginTop="@dimen/payment_btn_margin_top"
+        android:background="@drawable/personal_cab_btn"
+        android:text="@string/payment_btn_text"
+        android:textColor="@color/white" />
+</RelativeLayout>

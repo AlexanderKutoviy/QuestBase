@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_51b73dda52cc488256c5171a2fa7869b34ea65fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.4.0_8dc37d486196241ed47f22386adb14fc3b4864c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.1/27293c440d2085cde1d859528aff6e7d3b6ae40/retrofit-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="027293c440d2085cde1d859528aff6e7d3b6ae40">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.0.1_be07747005fe004e16781f8b1829d2e9f1246295/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.1/2780d858273ce1bb90f6b12e1ef0d40f7741fca/converter-gson-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="02780d858273ce1bb90f6b12e1ef0d40f7741fca">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.0.1_4fae2bf099e3db4107fbad1d9c6a86947fa6f439/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_b7629516046cefc1f759fd293550e827d2b1cdcd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.4.0_dce09dd2d5b43310f0f730eac9b2fd0ce088fb68/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.4.0_bf347dd70d2d4557ac3f87cd5a56750d8225c5bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_600b40d5c9a635fcad92a145aa1998fbdf7499aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.4.0_7646086ffef5df870d69a73d69102945c705aae3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.hannesdorfmann.mosby/mvp-common/2.0.1/d75c9c5577143f3cf3fd63f61526a551f910b56f/mvp-common-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d75c9c5577143f3cf3fd63f61526a551f910b56f">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/mvp-common-2.0.1_cafb9648d35685f8a36d2b363edb75b98da67be4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.4.0_f4d0b1e8a7e20bb0f221eb8a0921de8f91970ccf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.2.0/a56f28d5b7fab623c6c1d2afa08dd496d873ac21/logging-interceptor-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a56f28d5b7fab623c6c1d2afa08dd496d873ac21">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.2.0_89be6916e8df70f6aa904597a965f026da7916b0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.github.Raizlabs.DBFlow/dbflow-core/3.0.1/e9014c38af79e42dae3f73ce350a7cefef0ff7ea/dbflow-core-3.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e9014c38af79e42dae3f73ce350a7cefef0ff7ea">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/dbflow-core-3.0.1_5fad7206b1ab0275cd32cdc53338815b45862237/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.4.0_85fb5d6264db045c413d41888c0b2d4f36a522be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.febaisi/custom-textview/0.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="72ea2d8295eab78f38afdcc7bb43397e6bd7d89a">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.febaisi-custom-textview-0.0.3_d890bd4ce17c35d16997c31f6db5de227db5d081/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.github.Raizlabs.DBFlow/dbflow/3.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="920abacee400bafcbb94fc518cfe528f5818f1e9">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.Raizlabs.DBFlow-dbflow-3.0.1_0f180a8914de47e04646092a6a4b81ab6de6e670/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.4.0_42262f65ccf4abc68f70d3b7a3f31223a85158b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.0.1/cabf146d220dcd70a2972166cd1bfae200b97eff/adapter-rxjava-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="cabf146d220dcd70a2972166cd1bfae200b97eff">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/adapter-rxjava-2.0.1_cc40bd6562bae8347a3d0d9c261a6fa28eeda364/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.4.0_f89f7ec1267041345063a3427d5efc9374d2cb62/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_7c307bf3df15b246707231c22270836290891352/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/Android/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_86b18db85bc93b3a8ece39d3e943cb937177df1f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.afollestad.material-dialogs/core/0.8.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="5640136cf422060a7077e2c02d9a231d7c76f959">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.afollestad.material-dialogs-core-0.8.6.1_ec4a24f77fd6697e413a30e56ea57f4447cab161/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.6.1_73dd4c87ed677844ee790b46c4ed519583aee703/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/org.mozilla/rhino/1.7R4/e982f2136574b9a423186fbaeaaa98dc3e5a5288/rhino-1.7R4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e982f2136574b9a423186fbaeaaa98dc3e5a5288">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/rhino-1.7R4_ab20078c89987f27c33839d1f71ecfd2a0d19ec5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.github.lecho/hellocharts-android/v1.5.8/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="838172f1d23787cc52bb558ef989605bc2aecf62">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.lecho-hellocharts-android-v1.5.8_1b930fba531c2c944700b679691f5f19acf2a409/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.1.0_f93cef74857b12f8e2996a5e3f9241e286b41762/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d0ea82176dc7e3690a3c7318cf59b76c59b937d5">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9d100520c33f134a7602535ce46d6d6b65c50138/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_b8d41b99b8f665afa7b0ad19c5cda14feb06de37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.inject-1_0acf16300634940bf3c20a54ba1d087dd4088caf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.0.2/de8416eda7b2fd7c25836b140c39e1cbf10542f6/dagger-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="de8416eda7b2fd7c25836b140c39e1cbf10542f6">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/dagger-2.0.2_883c6fc7a6eecd0bbb04a32009a15c04a74cbdd0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.4.0_09bbfb61f2de9ab4ec2bc9bc38ff06e42483e3e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.5/442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375/universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/universal-image-loader-1.9.5_06e3eb4cb70ba8446d7d253d2211be4e881d118b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.github.pinball83/masked-edittext/1.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="86b0dfbd52c89f01fd58aa853cca6e81614d6374">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.pinball83-masked-edittext-1.0.3_95e0aebc0c598679908d5f80083f65dd76bc70df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.squareup.flow/flow/1.0.0-alpha/45ed03142787eba16ca19f392ef14632fcdc8984/flow-1.0.0-alpha.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="45ed03142787eba16ca19f392ef14632fcdc8984">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/flow-1.0.0-alpha_6f040a7b1aec6a9f66bcc9cd8da475cecfe72307/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_4f0f66785826233e8481874ad68e704590407070/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex-rxandroid-1.0.1_271c4160eec6d34a7fe22fce4cafeffc341d5cd0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_f227e1abc64a099ea3151366b68f215cca548029/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0_65a8be7a43406d6d72ed75437005cac168b2421d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/me.zhanghai.android.materialprogressbar/library/1.1.6/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="ab3193b438e37f7b0a634cc2dfebbf92892ea90c">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.zhanghai.android.materialprogressbar-library-1.1.6_2a06bf6eba7fe19ce0f47b3c306b26d9ddf80f80/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/jp.wasabeef/recyclerview-animators/2.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0b148ce9bfaa624702b7bd0a099bfdf44b46c936">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/jp.wasabeef-recyclerview-animators-2.1.0_9b8713382bafd44a289d47163006bdd8332ff0a7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.1/b494968f6050d494de55dc3ce005e59c7eb40012/rxjava-1.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b494968f6050d494de55dc3ce005e59c7eb40012">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.1_0ae29c6e826320d3207122d28eb1c2621f0167ec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a9bde00678da786bcbc3bd595a6ce63a8ac57f6e">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0d745c9b38a610bfea3928872f2d1601db5f2b2d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.hannesdorfmann.mosby/viewstate/2.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="66898369cdbdcd732d7b0143aa12010cf4814005">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.hannesdorfmann.mosby-viewstate-2.0.1_46c4a094741de6b048f8a4dd998d6f1d4d2a7268/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.afollestad.material-dialogs/commons/0.8.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b70302fafbb8bc4f74df2f648bee8c64ed065849">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.afollestad.material-dialogs-commons-0.8.6.1_e9dea4305f3474ce87d72bd01fb0efc55f608fd9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.4.0_c23fb84aca185d3d048f4743eb5af3476d5c87f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.annimon/stream/1.0.8/f6197d72af4d0197f7a3fab872d1a1b240aae1e9/stream-1.0.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f6197d72af4d0197f7a3fab872d1a1b240aae1e9">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/stream-1.0.8_c8903d0b8f8d9e99548351a6dc1b6637deceafc8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-2.1.0_cf542a3eef8f9323d337eb5bff18b0db53aca29e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.hannesdorfmann.mosby/mvp/2.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8d5f68a8fdd8283ea42b20259ae4adad9cbe5e94">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.hannesdorfmann.mosby-mvp-2.0.1_986b61f72742e720abe1f8cfd0a1c5a2f951a79f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.2.0_4ae56e7b06d033c205724e0adb6c4a34005c3416/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/home/olexandr/AndroidStudioProjects/therespo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.4.0_20f077a6c63a41d50d25e54150bc0f09cacb551e/classes.dex" />
+    </item>
+
+</items>
