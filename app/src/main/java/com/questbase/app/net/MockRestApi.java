@@ -1,22 +1,12 @@
 package com.questbase.app.net;
 
-import com.google.gson.JsonObject;
 import com.questbase.app.domain.Form;
 import com.questbase.app.domain.FormResource;
 import com.questbase.app.domain.ProfileResponse;
-import com.questbase.app.net.body.FormPostResponse;
-import com.questbase.app.net.body.PhoneNumberRequest;
-import com.questbase.app.net.body.PayoutRequest;
 import com.questbase.app.net.body.ResourceRequest;
-import com.questbase.app.net.body.TestSessionRequestDto;
 import com.questbase.app.net.entity.Category;
-import com.questbase.app.net.entity.PersonalResult;
 import com.questbase.app.net.entity.VersionedForm;
-import com.questbase.app.net.entity.statistics.PersonalStatsContainer;
 import com.questbase.app.net.entity.transactions.TransactionsResponseDto;
-import com.questbase.app.net.objects.PayoutResponse;
-import com.questbase.app.net.objects.PhoneAddingResponse;
-import com.questbase.app.net.objects.TestSessionResponseDto;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -81,47 +71,12 @@ public class MockRestApi implements RestApi {
         return null;
     }
 
-    @Override
-    public Observable<PersonalResult> getRespondentsChartData() {
-        throw new UnsupportedOperationException("Not implemented");
-    }
-
-    @Override
-    public Observable<PersonalStatsContainer> getStatisticsChartData(@Body Form form) {
-        return null;
-    }
-
-    @Override
-    public Observable<String> mineSomeRespos() {
-        return null;
-    }
-
     public Call<ResponseBody> loadFormattedFiles(@Field("form") String form, @Field("path") String path, @Field("name") String name, @Field("w") String w, @Field("h") String h, @Field("crc") String crc, @Field("ext") String ext) {
         return null;
     }
 
     @Override
     public Call<ResponseBody> getResources(FormResource formResource) {
-        return null;
-    }
-
-    @Override
-    public Observable<List<JsonObject>> postResponse(@Body FormPostResponse body) {
-        return null;
-    }
-
-    @Override
-    public Observable<PayoutResponse> performPayout(@Body PayoutRequest body) {
-        return null;
-    }
-
-    @Override
-    public Observable<PhoneAddingResponse> setPhoneNumber(@Body PhoneNumberRequest body) {
-        return null;
-    }
-
-    @Override
-    public Observable<TestSessionResponseDto> postTestSession(@Body TestSessionRequestDto body) {
         return null;
     }
 }
