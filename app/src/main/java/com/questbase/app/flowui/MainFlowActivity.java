@@ -60,7 +60,8 @@ public class MainFlowActivity extends AppCompatActivity implements Dispatcher {
                 .appComponent(QuestBaseApplication.getAppComponent())
                 .build().inject(this);
         initFilesCopying();
-        SyncUtils.createSyncAccount(this);
+//        TODO: Enable sync if needed
+//        SyncUtils.createSyncAccount(this);
         setContentView(R.layout.flow_main_frame);
         CommonUtils.setOrientation(this);
     }

@@ -115,6 +115,8 @@ repositories {
         compile 'com.google.firebase:firebase-database:9.4.0'
         //firebase analytics
         compile 'com.google.firebase:firebase-core:9.4.0'
+        //diagonal layout
+        compile 'com.github.florent37:diagonallayout:1.0.2'
     }
     apply plugin: 'com.google.gms.google-services'
 }
